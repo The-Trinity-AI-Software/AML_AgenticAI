@@ -1,0 +1,14 @@
+### To submit files and trigger prediction
+
+curl -X POST http://localhost:5000/predict \
+  -F "train_file=@uploads/train/YOUR_TRAIN_FILE.csv" \
+  -F "test_file=@uploads/test/YOUR_TEST_FILE.csv"
+
+### To download Json Output
+
+curl -O http://localhost:5000/download/json
+
+
+### To download Excel output
+
+curl -O http://localhost:5000/download/excel
