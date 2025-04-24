@@ -12,3 +12,7 @@ curl -O http://localhost:5000/download/json
 ### To download Excel output
 
 curl -O http://localhost:5000/download/excel
+
+The Flask app is running at: http://localhost:5000
+
+
