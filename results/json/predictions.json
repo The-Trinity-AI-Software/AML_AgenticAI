@@ -1,0 +1,2802 @@
+[
+  {
+    "TransactionID":24,
+    "Prediction":"Legitimate",
+    "Confidence":"0.02",
+    "Model":"RF",
+    "Explanation":"Although rule-based indicators are present (amount exceeds $10,000, structuring pattern detected), the model considers this transaction legitimate with confidence."
+  },
+  {
+    "TransactionID":30,
+    "Prediction":"Fraudulent",
+    "Confidence":"0.71",
+    "Model":"RF",
+    "Explanation":"This transaction is considered suspicious because it transaction involves a high-risk country."
+  },
+  {
+    "TransactionID":31,
+    "Prediction":"Legitimate",
+    "Confidence":"0.05",
+    "Model":"RF",
+    "Explanation":"Although rule-based indicators are present (amount exceeds $10,000, transaction involves a high-risk country), the model considers this transaction legitimate with confidence."
+  },
+  {
+    "TransactionID":33,
+    "Prediction":"Legitimate",
+    "Confidence":"0.21",
+    "Model":"RF",
+    "Explanation":"Although rule-based indicators are present (amount exceeds $10,000, missing declared purpose), the model considers this transaction legitimate with confidence."
+  },
+  {
+    "TransactionID":45,
+    "Prediction":"Legitimate",
+    "Confidence":"0.16",
+    "Model":"RF",
+    "Explanation":"Although rule-based indicators are present (amount exceeds $10,000), the model considers this transaction legitimate with confidence."
+  },
+  {
+    "TransactionID":46,
+    "Prediction":"Legitimate",
+    "Confidence":"0.05",
+    "Model":"RF",
+    "Explanation":"Although rule-based indicators are present (amount exceeds $10,000, foreign location, missing declared purpose), the model considers this transaction legitimate with confidence."
+  },
+  {
+    "TransactionID":50,
+    "Prediction":"Legitimate",
+    "Confidence":"0.04",
+    "Model":"RF",
+    "Explanation":"Although rule-based indicators are present (amount exceeds $10,000, structuring pattern detected), the model considers this transaction legitimate with confidence."
+  },
+  {
+    "TransactionID":57,
+    "Prediction":"Legitimate",
+    "Confidence":"0.08",
+    "Model":"RF",
+    "Explanation":"Although rule-based indicators are present (amount exceeds $10,000), the model considers this transaction legitimate with confidence."
+  },
+  {
+    "TransactionID":60,
+    "Prediction":"Fraudulent",
+    "Confidence":"0.76",
+    "Model":"RF",
+    "Explanation":"This transaction is considered suspicious because it amount exceeds $10,000, structuring pattern detected."
+  },
+  {
+    "TransactionID":64,
+    "Prediction":"Legitimate",
+    "Confidence":"0.14",
+    "Model":"RF",
+    "Explanation":"Although rule-based indicators are present (amount exceeds $10,000), the model considers this transaction legitimate with confidence."
+  },
+  {
+    "TransactionID":66,
+    "Prediction":"Legitimate",
+    "Confidence":"0.08",
+    "Model":"RF",
+    "Explanation":"Although rule-based indicators are present (amount exceeds $10,000, transaction involves a high-risk country, missing declared purpose), the model considers this transaction legitimate with confidence."
+  },
+  {
+    "TransactionID":68,
+    "Prediction":"Legitimate",
+    "Confidence":"0.08",
+    "Model":"RF",
+    "Explanation":"No risk indicators detected."
+  },
+  {
+    "TransactionID":70,
+    "Prediction":"Legitimate",
+    "Confidence":"0.10",
+    "Model":"RF",
+    "Explanation":"Although rule-based indicators are present (amount exceeds $10,000, foreign location), the model considers this transaction legitimate with confidence."
+  },
+  {
+    "TransactionID":71,
+    "Prediction":"Legitimate",
+    "Confidence":"0.06",
+    "Model":"RF",
+    "Explanation":"Although rule-based indicators are present (amount exceeds $10,000, previous suspicious activity reported), the model considers this transaction legitimate with confidence."
+  },
+  {
+    "TransactionID":74,
+    "Prediction":"Legitimate",
+    "Confidence":"0.07",
+    "Model":"RF",
+    "Explanation":"Although rule-based indicators are present (amount exceeds $10,000, transaction involves a high-risk country, foreign location, missing declared purpose), the model considers this transaction legitimate with confidence."
+  },
+  {
+    "TransactionID":77,
+    "Prediction":"Legitimate",
+    "Confidence":"0.06",
+    "Model":"RF",
+    "Explanation":"Although rule-based indicators are present (amount exceeds $10,000, foreign location), the model considers this transaction legitimate with confidence."
+  },
+  {
+    "TransactionID":79,
+    "Prediction":"Legitimate",
+    "Confidence":"0.04",
+    "Model":"RF",
+    "Explanation":"Although rule-based indicators are present (amount exceeds $10,000), the model considers this transaction legitimate with confidence."
+  },
+  {
+    "TransactionID":100,
+    "Prediction":"Legitimate",
+    "Confidence":"0.15",
+    "Model":"RF",
+    "Explanation":"Although rule-based indicators are present (amount exceeds $10,000), the model considers this transaction legitimate with confidence."
+  },
+  {
+    "TransactionID":101,
+    "Prediction":"Fraudulent",
+    "Confidence":"0.69",
+    "Model":"RF",
+    "Explanation":"Flagged by model due to risk score."
+  },
+  {
+    "TransactionID":110,
+    "Prediction":"Legitimate",
+    "Confidence":"0.05",
+    "Model":"RF",
+    "Explanation":"Although rule-based indicators are present (amount exceeds $10,000), the model considers this transaction legitimate with confidence."
+  },
+  {
+    "TransactionID":112,
+    "Prediction":"Legitimate",
+    "Confidence":"0.07",
+    "Model":"RF",
+    "Explanation":"Although rule-based indicators are present (amount exceeds $10,000), the model considers this transaction legitimate with confidence."
+  },
+  {
+    "TransactionID":116,
+    "Prediction":"Legitimate",
+    "Confidence":"0.04",
+    "Model":"RF",
+    "Explanation":"Although rule-based indicators are present (amount exceeds $10,000, structuring pattern detected), the model considers this transaction legitimate with confidence."
+  },
+  {
+    "TransactionID":121,
+    "Prediction":"Legitimate",
+    "Confidence":"0.12",
+    "Model":"RF",
+    "Explanation":"Although rule-based indicators are present (amount exceeds $10,000, foreign location), the model considers this transaction legitimate with confidence."
+  },
+  {
+    "TransactionID":124,
+    "Prediction":"Legitimate",
+    "Confidence":"0.01",
+    "Model":"RF",
+    "Explanation":"Although rule-based indicators are present (amount exceeds $10,000), the model considers this transaction legitimate with confidence."
+  },
+  {
+    "TransactionID":125,
+    "Prediction":"Legitimate",
+    "Confidence":"0.06",
+    "Model":"RF",
+    "Explanation":"Although rule-based indicators are present (amount exceeds $10,000, missing declared purpose), the model considers this transaction legitimate with confidence."
+  },
+  {
+    "TransactionID":129,
+    "Prediction":"Legitimate",
+    "Confidence":"0.05",
+    "Model":"RF",
+    "Explanation":"Although rule-based indicators are present (amount exceeds $10,000, structuring pattern detected), the model considers this transaction legitimate with confidence."
+  },
+  {
+    "TransactionID":136,
+    "Prediction":"Fraudulent",
+    "Confidence":"0.63",
+    "Model":"RF",
+    "Explanation":"This transaction is considered suspicious because it amount exceeds $10,000, foreign location."
+  },
+  {
+    "TransactionID":163,
+    "Prediction":"Legitimate",
+    "Confidence":"0.01",
+    "Model":"RF",
+    "Explanation":"Although rule-based indicators are present (amount exceeds $10,000, foreign location, structuring pattern detected), the model considers this transaction legitimate with confidence."
+  },
+  {
+    "TransactionID":164,
+    "Prediction":"Legitimate",
+    "Confidence":"0.00",
+    "Model":"RF",
+    "Explanation":"Although rule-based indicators are present (amount exceeds $10,000, foreign location), the model considers this transaction legitimate with confidence."
+  },
+  {
+    "TransactionID":169,
+    "Prediction":"Legitimate",
+    "Confidence":"0.12",
+    "Model":"RF",
+    "Explanation":"Although rule-based indicators are present (amount exceeds $10,000), the model considers this transaction legitimate with confidence."
+  },
+  {
+    "TransactionID":174,
+    "Prediction":"Legitimate",
+    "Confidence":"0.13",
+    "Model":"RF",
+    "Explanation":"Although rule-based indicators are present (amount exceeds $10,000), the model considers this transaction legitimate with confidence."
+  },
+  {
+    "TransactionID":176,
+    "Prediction":"Legitimate",
+    "Confidence":"0.08",
+    "Model":"RF",
+    "Explanation":"Although rule-based indicators are present (amount exceeds $10,000, transaction involves a high-risk country), the model considers this transaction legitimate with confidence."
+  },
+  {
+    "TransactionID":186,
+    "Prediction":"Legitimate",
+    "Confidence":"0.04",
+    "Model":"RF",
+    "Explanation":"Although rule-based indicators are present (amount exceeds $10,000), the model considers this transaction legitimate with confidence."
+  },
+  {
+    "TransactionID":189,
+    "Prediction":"Legitimate",
+    "Confidence":"0.14",
+    "Model":"RF",
+    "Explanation":"Although rule-based indicators are present (amount exceeds $10,000, structuring pattern detected), the model considers this transaction legitimate with confidence."
+  },
+  {
+    "TransactionID":195,
+    "Prediction":"Legitimate",
+    "Confidence":"0.09",
+    "Model":"RF",
+    "Explanation":"Although rule-based indicators are present (amount exceeds $10,000), the model considers this transaction legitimate with confidence."
+  },
+  {
+    "TransactionID":197,
+    "Prediction":"Fraudulent",
+    "Confidence":"0.74",
+    "Model":"RF",
+    "Explanation":"This transaction is considered suspicious because it amount exceeds $10,000, structuring pattern detected."
+  },
+  {
+    "TransactionID":204,
+    "Prediction":"Fraudulent",
+    "Confidence":"0.79",
+    "Model":"RF",
+    "Explanation":"This transaction is considered suspicious because it amount exceeds $10,000, transaction involves a high-risk country, missing declared purpose."
+  },
+  {
+    "TransactionID":211,
+    "Prediction":"Legitimate",
+    "Confidence":"0.11",
+    "Model":"RF",
+    "Explanation":"Although rule-based indicators are present (amount exceeds $10,000, transaction involves a high-risk country, previous suspicious activity reported), the model considers this transaction legitimate with confidence."
+  },
+  {
+    "TransactionID":212,
+    "Prediction":"Legitimate",
+    "Confidence":"0.06",
+    "Model":"RF",
+    "Explanation":"Although rule-based indicators are present (amount exceeds $10,000), the model considers this transaction legitimate with confidence."
+  },
+  {
+    "TransactionID":213,
+    "Prediction":"Legitimate",
+    "Confidence":"0.04",
+    "Model":"RF",
+    "Explanation":"Although rule-based indicators are present (amount exceeds $10,000), the model considers this transaction legitimate with confidence."
+  },
+  {
+    "TransactionID":219,
+    "Prediction":"Legitimate",
+    "Confidence":"0.13",
+    "Model":"RF",
+    "Explanation":"Although rule-based indicators are present (amount exceeds $10,000), the model considers this transaction legitimate with confidence."
+  },
+  {
+    "TransactionID":221,
+    "Prediction":"Legitimate",
+    "Confidence":"0.21",
+    "Model":"RF",
+    "Explanation":"Although rule-based indicators are present (missing declared purpose), the model considers this transaction legitimate with confidence."
+  },
+  {
+    "TransactionID":232,
+    "Prediction":"Legitimate",
+    "Confidence":"0.08",
+    "Model":"RF",
+    "Explanation":"Although rule-based indicators are present (amount exceeds $10,000, transaction involves a high-risk country), the model considers this transaction legitimate with confidence."
+  },
+  {
+    "TransactionID":234,
+    "Prediction":"Legitimate",
+    "Confidence":"0.13",
+    "Model":"RF",
+    "Explanation":"Although rule-based indicators are present (amount exceeds $10,000), the model considers this transaction legitimate with confidence."
+  },
+  {
+    "TransactionID":238,
+    "Prediction":"Legitimate",
+    "Confidence":"0.11",
+    "Model":"RF",
+    "Explanation":"Although rule-based indicators are present (amount exceeds $10,000, transaction involves a high-risk country, previous suspicious activity reported, structuring pattern detected), the model considers this transaction legitimate with confidence."
+  },
+  {
+    "TransactionID":240,
+    "Prediction":"Legitimate",
+    "Confidence":"0.04",
+    "Model":"RF",
+    "Explanation":"Although rule-based indicators are present (amount exceeds $10,000, structuring pattern detected), the model considers this transaction legitimate with confidence."
+  },
+  {
+    "TransactionID":248,
+    "Prediction":"Legitimate",
+    "Confidence":"0.16",
+    "Model":"RF",
+    "Explanation":"Although rule-based indicators are present (amount exceeds $10,000, structuring pattern detected), the model considers this transaction legitimate with confidence."
+  },
+  {
+    "TransactionID":252,
+    "Prediction":"Legitimate",
+    "Confidence":"0.07",
+    "Model":"RF",
+    "Explanation":"Although rule-based indicators are present (amount exceeds $10,000), the model considers this transaction legitimate with confidence."
+  },
+  {
+    "TransactionID":255,
+    "Prediction":"Legitimate",
+    "Confidence":"0.08",
+    "Model":"RF",
+    "Explanation":"Although rule-based indicators are present (amount exceeds $10,000, missing declared purpose), the model considers this transaction legitimate with confidence."
+  },
+  {
+    "TransactionID":257,
+    "Prediction":"Legitimate",
+    "Confidence":"0.00",
+    "Model":"RF",
+    "Explanation":"Although rule-based indicators are present (amount exceeds $10,000), the model considers this transaction legitimate with confidence."
+  },
+  {
+    "TransactionID":262,
+    "Prediction":"Legitimate",
+    "Confidence":"0.05",
+    "Model":"RF",
+    "Explanation":"Although rule-based indicators are present (amount exceeds $10,000, transaction involves a high-risk country, previous suspicious activity reported), the model considers this transaction legitimate with confidence."
+  },
+  {
+    "TransactionID":267,
+    "Prediction":"Legitimate",
+    "Confidence":"0.05",
+    "Model":"RF",
+    "Explanation":"No risk indicators detected."
+  },
+  {
+    "TransactionID":271,
+    "Prediction":"Legitimate",
+    "Confidence":"0.14",
+    "Model":"RF",
+    "Explanation":"Although rule-based indicators are present (amount exceeds $10,000), the model considers this transaction legitimate with confidence."
+  },
+  {
+    "TransactionID":276,
+    "Prediction":"Legitimate",
+    "Confidence":"0.13",
+    "Model":"RF",
+    "Explanation":"Although rule-based indicators are present (amount exceeds $10,000), the model considers this transaction legitimate with confidence."
+  },
+  {
+    "TransactionID":282,
+    "Prediction":"Legitimate",
+    "Confidence":"0.14",
+    "Model":"RF",
+    "Explanation":"Although rule-based indicators are present (amount exceeds $10,000), the model considers this transaction legitimate with confidence."
+  },
+  {
+    "TransactionID":290,
+    "Prediction":"Legitimate",
+    "Confidence":"0.05",
+    "Model":"RF",
+    "Explanation":"Although rule-based indicators are present (amount exceeds $10,000, previous suspicious activity reported), the model considers this transaction legitimate with confidence."
+  },
+  {
+    "TransactionID":298,
+    "Prediction":"Legitimate",
+    "Confidence":"0.06",
+    "Model":"RF",
+    "Explanation":"Although rule-based indicators are present (amount exceeds $10,000, transaction involves a high-risk country), the model considers this transaction legitimate with confidence."
+  },
+  {
+    "TransactionID":299,
+    "Prediction":"Legitimate",
+    "Confidence":"0.05",
+    "Model":"RF",
+    "Explanation":"Although rule-based indicators are present (amount exceeds $10,000, transaction involves a high-risk country, structuring pattern detected), the model considers this transaction legitimate with confidence."
+  },
+  {
+    "TransactionID":301,
+    "Prediction":"Legitimate",
+    "Confidence":"0.11",
+    "Model":"RF",
+    "Explanation":"Although rule-based indicators are present (amount exceeds $10,000, transaction involves a high-risk country), the model considers this transaction legitimate with confidence."
+  },
+  {
+    "TransactionID":304,
+    "Prediction":"Legitimate",
+    "Confidence":"0.11",
+    "Model":"RF",
+    "Explanation":"No risk indicators detected."
+  },
+  {
+    "TransactionID":306,
+    "Prediction":"Legitimate",
+    "Confidence":"0.02",
+    "Model":"RF",
+    "Explanation":"Although rule-based indicators are present (amount exceeds $10,000, foreign location, structuring pattern detected), the model considers this transaction legitimate with confidence."
+  },
+  {
+    "TransactionID":307,
+    "Prediction":"Legitimate",
+    "Confidence":"0.12",
+    "Model":"RF",
+    "Explanation":"No risk indicators detected."
+  },
+  {
+    "TransactionID":308,
+    "Prediction":"Legitimate",
+    "Confidence":"0.14",
+    "Model":"RF",
+    "Explanation":"Although rule-based indicators are present (amount exceeds $10,000), the model considers this transaction legitimate with confidence."
+  },
+  {
+    "TransactionID":317,
+    "Prediction":"Legitimate",
+    "Confidence":"0.07",
+    "Model":"RF",
+    "Explanation":"Although rule-based indicators are present (amount exceeds $10,000, previous suspicious activity reported), the model considers this transaction legitimate with confidence."
+  },
+  {
+    "TransactionID":323,
+    "Prediction":"Fraudulent",
+    "Confidence":"0.72",
+    "Model":"RF",
+    "Explanation":"This transaction is considered suspicious because it amount exceeds $10,000, missing declared purpose."
+  },
+  {
+    "TransactionID":325,
+    "Prediction":"Legitimate",
+    "Confidence":"0.03",
+    "Model":"RF",
+    "Explanation":"Although rule-based indicators are present (amount exceeds $10,000, structuring pattern detected), the model considers this transaction legitimate with confidence."
+  },
+  {
+    "TransactionID":332,
+    "Prediction":"Legitimate",
+    "Confidence":"0.08",
+    "Model":"RF",
+    "Explanation":"Although rule-based indicators are present (amount exceeds $10,000, missing declared purpose), the model considers this transaction legitimate with confidence."
+  },
+  {
+    "TransactionID":343,
+    "Prediction":"Legitimate",
+    "Confidence":"0.13",
+    "Model":"RF",
+    "Explanation":"Although rule-based indicators are present (amount exceeds $10,000), the model considers this transaction legitimate with confidence."
+  },
+  {
+    "TransactionID":345,
+    "Prediction":"Legitimate",
+    "Confidence":"0.12",
+    "Model":"RF",
+    "Explanation":"Although rule-based indicators are present (amount exceeds $10,000, missing declared purpose), the model considers this transaction legitimate with confidence."
+  },
+  {
+    "TransactionID":351,
+    "Prediction":"Legitimate",
+    "Confidence":"0.03",
+    "Model":"RF",
+    "Explanation":"Although rule-based indicators are present (amount exceeds $10,000, foreign location), the model considers this transaction legitimate with confidence."
+  },
+  {
+    "TransactionID":352,
+    "Prediction":"Fraudulent",
+    "Confidence":"0.74",
+    "Model":"RF",
+    "Explanation":"This transaction is considered suspicious because it amount exceeds $10,000, structuring pattern detected."
+  },
+  {
+    "TransactionID":353,
+    "Prediction":"Fraudulent",
+    "Confidence":"0.74",
+    "Model":"RF",
+    "Explanation":"This transaction is considered suspicious because it amount exceeds $10,000, transaction involves a high-risk country, previous suspicious activity reported, structuring pattern detected."
+  },
+  {
+    "TransactionID":354,
+    "Prediction":"Fraudulent",
+    "Confidence":"0.84",
+    "Model":"RF",
+    "Explanation":"This transaction is considered suspicious because it amount exceeds $10,000, missing declared purpose."
+  },
+  {
+    "TransactionID":355,
+    "Prediction":"Legitimate",
+    "Confidence":"0.06",
+    "Model":"RF",
+    "Explanation":"Although rule-based indicators are present (amount exceeds $10,000, transaction involves a high-risk country, foreign location, missing declared purpose, structuring pattern detected), the model considers this transaction legitimate with confidence."
+  },
+  {
+    "TransactionID":362,
+    "Prediction":"Legitimate",
+    "Confidence":"0.10",
+    "Model":"RF",
+    "Explanation":"Although rule-based indicators are present (amount exceeds $10,000, missing declared purpose), the model considers this transaction legitimate with confidence."
+  },
+  {
+    "TransactionID":367,
+    "Prediction":"Legitimate",
+    "Confidence":"0.10",
+    "Model":"RF",
+    "Explanation":"Although rule-based indicators are present (transaction involves a high-risk country, previous suspicious activity reported), the model considers this transaction legitimate with confidence."
+  },
+  {
+    "TransactionID":368,
+    "Prediction":"Legitimate",
+    "Confidence":"0.08",
+    "Model":"RF",
+    "Explanation":"Although rule-based indicators are present (amount exceeds $10,000, foreign location), the model considers this transaction legitimate with confidence."
+  },
+  {
+    "TransactionID":369,
+    "Prediction":"Fraudulent",
+    "Confidence":"0.85",
+    "Model":"RF",
+    "Explanation":"Flagged by model due to risk score."
+  },
+  {
+    "TransactionID":375,
+    "Prediction":"Legitimate",
+    "Confidence":"0.13",
+    "Model":"RF",
+    "Explanation":"No risk indicators detected."
+  },
+  {
+    "TransactionID":383,
+    "Prediction":"Legitimate",
+    "Confidence":"0.04",
+    "Model":"RF",
+    "Explanation":"Although rule-based indicators are present (amount exceeds $10,000, foreign location, missing declared purpose, structuring pattern detected), the model considers this transaction legitimate with confidence."
+  },
+  {
+    "TransactionID":384,
+    "Prediction":"Legitimate",
+    "Confidence":"0.12",
+    "Model":"RF",
+    "Explanation":"Although rule-based indicators are present (amount exceeds $10,000), the model considers this transaction legitimate with confidence."
+  },
+  {
+    "TransactionID":394,
+    "Prediction":"Legitimate",
+    "Confidence":"0.04",
+    "Model":"RF",
+    "Explanation":"Although rule-based indicators are present (amount exceeds $10,000, structuring pattern detected), the model considers this transaction legitimate with confidence."
+  },
+  {
+    "TransactionID":395,
+    "Prediction":"Legitimate",
+    "Confidence":"0.06",
+    "Model":"RF",
+    "Explanation":"Although rule-based indicators are present (amount exceeds $10,000, transaction involves a high-risk country, missing declared purpose), the model considers this transaction legitimate with confidence."
+  },
+  {
+    "TransactionID":412,
+    "Prediction":"Legitimate",
+    "Confidence":"0.04",
+    "Model":"RF",
+    "Explanation":"No risk indicators detected."
+  },
+  {
+    "TransactionID":415,
+    "Prediction":"Legitimate",
+    "Confidence":"0.05",
+    "Model":"RF",
+    "Explanation":"Although rule-based indicators are present (amount exceeds $10,000, foreign location, structuring pattern detected), the model considers this transaction legitimate with confidence."
+  },
+  {
+    "TransactionID":417,
+    "Prediction":"Legitimate",
+    "Confidence":"0.06",
+    "Model":"RF",
+    "Explanation":"Although rule-based indicators are present (amount exceeds $10,000, foreign location, missing declared purpose, structuring pattern detected), the model considers this transaction legitimate with confidence."
+  },
+  {
+    "TransactionID":423,
+    "Prediction":"Legitimate",
+    "Confidence":"0.07",
+    "Model":"RF",
+    "Explanation":"Although rule-based indicators are present (amount exceeds $10,000, missing declared purpose, structuring pattern detected), the model considers this transaction legitimate with confidence."
+  },
+  {
+    "TransactionID":428,
+    "Prediction":"Fraudulent",
+    "Confidence":"0.65",
+    "Model":"RF",
+    "Explanation":"This transaction is considered suspicious because it amount exceeds $10,000."
+  },
+  {
+    "TransactionID":430,
+    "Prediction":"Legitimate",
+    "Confidence":"0.10",
+    "Model":"RF",
+    "Explanation":"Although rule-based indicators are present (amount exceeds $10,000), the model considers this transaction legitimate with confidence."
+  },
+  {
+    "TransactionID":433,
+    "Prediction":"Legitimate",
+    "Confidence":"0.10",
+    "Model":"RF",
+    "Explanation":"Although rule-based indicators are present (amount exceeds $10,000, structuring pattern detected), the model considers this transaction legitimate with confidence."
+  },
+  {
+    "TransactionID":434,
+    "Prediction":"Legitimate",
+    "Confidence":"0.10",
+    "Model":"RF",
+    "Explanation":"Although rule-based indicators are present (amount exceeds $10,000, transaction involves a high-risk country, structuring pattern detected), the model considers this transaction legitimate with confidence."
+  },
+  {
+    "TransactionID":439,
+    "Prediction":"Legitimate",
+    "Confidence":"0.18",
+    "Model":"RF",
+    "Explanation":"Although rule-based indicators are present (amount exceeds $10,000), the model considers this transaction legitimate with confidence."
+  },
+  {
+    "TransactionID":451,
+    "Prediction":"Legitimate",
+    "Confidence":"0.06",
+    "Model":"RF",
+    "Explanation":"Although rule-based indicators are present (amount exceeds $10,000, structuring pattern detected), the model considers this transaction legitimate with confidence."
+  },
+  {
+    "TransactionID":454,
+    "Prediction":"Legitimate",
+    "Confidence":"0.04",
+    "Model":"RF",
+    "Explanation":"Although rule-based indicators are present (amount exceeds $10,000), the model considers this transaction legitimate with confidence."
+  },
+  {
+    "TransactionID":463,
+    "Prediction":"Legitimate",
+    "Confidence":"0.09",
+    "Model":"RF",
+    "Explanation":"Although rule-based indicators are present (amount exceeds $10,000, structuring pattern detected), the model considers this transaction legitimate with confidence."
+  },
+  {
+    "TransactionID":465,
+    "Prediction":"Legitimate",
+    "Confidence":"0.05",
+    "Model":"RF",
+    "Explanation":"Although rule-based indicators are present (amount exceeds $10,000, transaction involves a high-risk country), the model considers this transaction legitimate with confidence."
+  },
+  {
+    "TransactionID":472,
+    "Prediction":"Legitimate",
+    "Confidence":"0.09",
+    "Model":"RF",
+    "Explanation":"Although rule-based indicators are present (amount exceeds $10,000, missing declared purpose, structuring pattern detected), the model considers this transaction legitimate with confidence."
+  },
+  {
+    "TransactionID":479,
+    "Prediction":"Legitimate",
+    "Confidence":"0.07",
+    "Model":"RF",
+    "Explanation":"Although rule-based indicators are present (amount exceeds $10,000, missing declared purpose), the model considers this transaction legitimate with confidence."
+  },
+  {
+    "TransactionID":480,
+    "Prediction":"Legitimate",
+    "Confidence":"0.11",
+    "Model":"RF",
+    "Explanation":"Although rule-based indicators are present (amount exceeds $10,000), the model considers this transaction legitimate with confidence."
+  },
+  {
+    "TransactionID":481,
+    "Prediction":"Legitimate",
+    "Confidence":"0.08",
+    "Model":"RF",
+    "Explanation":"Although rule-based indicators are present (previous suspicious activity reported), the model considers this transaction legitimate with confidence."
+  },
+  {
+    "TransactionID":483,
+    "Prediction":"Legitimate",
+    "Confidence":"0.05",
+    "Model":"RF",
+    "Explanation":"Although rule-based indicators are present (amount exceeds $10,000), the model considers this transaction legitimate with confidence."
+  },
+  {
+    "TransactionID":486,
+    "Prediction":"Legitimate",
+    "Confidence":"0.04",
+    "Model":"RF",
+    "Explanation":"Although rule-based indicators are present (amount exceeds $10,000, transaction involves a high-risk country, foreign location, structuring pattern detected), the model considers this transaction legitimate with confidence."
+  },
+  {
+    "TransactionID":495,
+    "Prediction":"Legitimate",
+    "Confidence":"0.06",
+    "Model":"RF",
+    "Explanation":"Although rule-based indicators are present (amount exceeds $10,000, transaction involves a high-risk country, structuring pattern detected), the model considers this transaction legitimate with confidence."
+  },
+  {
+    "TransactionID":496,
+    "Prediction":"Legitimate",
+    "Confidence":"0.14",
+    "Model":"RF",
+    "Explanation":"Although rule-based indicators are present (amount exceeds $10,000, missing declared purpose), the model considers this transaction legitimate with confidence."
+  },
+  {
+    "TransactionID":508,
+    "Prediction":"Legitimate",
+    "Confidence":"0.04",
+    "Model":"RF",
+    "Explanation":"Although rule-based indicators are present (amount exceeds $10,000, transaction involves a high-risk country), the model considers this transaction legitimate with confidence."
+  },
+  {
+    "TransactionID":515,
+    "Prediction":"Legitimate",
+    "Confidence":"0.04",
+    "Model":"RF",
+    "Explanation":"Although rule-based indicators are present (amount exceeds $10,000, transaction involves a high-risk country), the model considers this transaction legitimate with confidence."
+  },
+  {
+    "TransactionID":520,
+    "Prediction":"Legitimate",
+    "Confidence":"0.05",
+    "Model":"RF",
+    "Explanation":"Although rule-based indicators are present (amount exceeds $10,000, foreign location), the model considers this transaction legitimate with confidence."
+  },
+  {
+    "TransactionID":527,
+    "Prediction":"Legitimate",
+    "Confidence":"0.05",
+    "Model":"RF",
+    "Explanation":"Although rule-based indicators are present (amount exceeds $10,000, structuring pattern detected), the model considers this transaction legitimate with confidence."
+  },
+  {
+    "TransactionID":528,
+    "Prediction":"Legitimate",
+    "Confidence":"0.12",
+    "Model":"RF",
+    "Explanation":"No risk indicators detected."
+  },
+  {
+    "TransactionID":530,
+    "Prediction":"Legitimate",
+    "Confidence":"0.09",
+    "Model":"RF",
+    "Explanation":"Although rule-based indicators are present (amount exceeds $10,000, structuring pattern detected), the model considers this transaction legitimate with confidence."
+  },
+  {
+    "TransactionID":531,
+    "Prediction":"Legitimate",
+    "Confidence":"0.22",
+    "Model":"RF",
+    "Explanation":"Although rule-based indicators are present (amount exceeds $10,000, missing declared purpose), the model considers this transaction legitimate with confidence."
+  },
+  {
+    "TransactionID":535,
+    "Prediction":"Legitimate",
+    "Confidence":"0.07",
+    "Model":"RF",
+    "Explanation":"Although rule-based indicators are present (amount exceeds $10,000, previous suspicious activity reported), the model considers this transaction legitimate with confidence."
+  },
+  {
+    "TransactionID":536,
+    "Prediction":"Legitimate",
+    "Confidence":"0.14",
+    "Model":"RF",
+    "Explanation":"Although rule-based indicators are present (amount exceeds $10,000), the model considers this transaction legitimate with confidence."
+  },
+  {
+    "TransactionID":539,
+    "Prediction":"Legitimate",
+    "Confidence":"0.09",
+    "Model":"RF",
+    "Explanation":"Although rule-based indicators are present (amount exceeds $10,000, structuring pattern detected), the model considers this transaction legitimate with confidence."
+  },
+  {
+    "TransactionID":544,
+    "Prediction":"Legitimate",
+    "Confidence":"0.11",
+    "Model":"RF",
+    "Explanation":"Although rule-based indicators are present (amount exceeds $10,000), the model considers this transaction legitimate with confidence."
+  },
+  {
+    "TransactionID":545,
+    "Prediction":"Legitimate",
+    "Confidence":"0.06",
+    "Model":"RF",
+    "Explanation":"No risk indicators detected."
+  },
+  {
+    "TransactionID":553,
+    "Prediction":"Legitimate",
+    "Confidence":"0.08",
+    "Model":"RF",
+    "Explanation":"Although rule-based indicators are present (amount exceeds $10,000, transaction involves a high-risk country), the model considers this transaction legitimate with confidence."
+  },
+  {
+    "TransactionID":555,
+    "Prediction":"Legitimate",
+    "Confidence":"0.04",
+    "Model":"RF",
+    "Explanation":"Although rule-based indicators are present (amount exceeds $10,000, missing declared purpose), the model considers this transaction legitimate with confidence."
+  },
+  {
+    "TransactionID":556,
+    "Prediction":"Fraudulent",
+    "Confidence":"0.73",
+    "Model":"RF",
+    "Explanation":"This transaction is considered suspicious because it foreign location."
+  },
+  {
+    "TransactionID":571,
+    "Prediction":"Legitimate",
+    "Confidence":"0.08",
+    "Model":"RF",
+    "Explanation":"No risk indicators detected."
+  },
+  {
+    "TransactionID":573,
+    "Prediction":"Legitimate",
+    "Confidence":"0.03",
+    "Model":"RF",
+    "Explanation":"Although rule-based indicators are present (amount exceeds $10,000, structuring pattern detected), the model considers this transaction legitimate with confidence."
+  },
+  {
+    "TransactionID":580,
+    "Prediction":"Fraudulent",
+    "Confidence":"0.68",
+    "Model":"RF",
+    "Explanation":"This transaction is considered suspicious because it amount exceeds $10,000, previous suspicious activity reported."
+  },
+  {
+    "TransactionID":582,
+    "Prediction":"Legitimate",
+    "Confidence":"0.06",
+    "Model":"RF",
+    "Explanation":"Although rule-based indicators are present (amount exceeds $10,000, transaction involves a high-risk country), the model considers this transaction legitimate with confidence."
+  },
+  {
+    "TransactionID":583,
+    "Prediction":"Legitimate",
+    "Confidence":"0.21",
+    "Model":"RF",
+    "Explanation":"Although rule-based indicators are present (amount exceeds $10,000), the model considers this transaction legitimate with confidence."
+  },
+  {
+    "TransactionID":584,
+    "Prediction":"Fraudulent",
+    "Confidence":"0.86",
+    "Model":"RF",
+    "Explanation":"This transaction is considered suspicious because it amount exceeds $10,000, transaction involves a high-risk country."
+  },
+  {
+    "TransactionID":585,
+    "Prediction":"Legitimate",
+    "Confidence":"0.10",
+    "Model":"RF",
+    "Explanation":"Although rule-based indicators are present (amount exceeds $10,000, previous suspicious activity reported), the model considers this transaction legitimate with confidence."
+  },
+  {
+    "TransactionID":586,
+    "Prediction":"Legitimate",
+    "Confidence":"0.07",
+    "Model":"RF",
+    "Explanation":"Although rule-based indicators are present (amount exceeds $10,000, transaction involves a high-risk country), the model considers this transaction legitimate with confidence."
+  },
+  {
+    "TransactionID":592,
+    "Prediction":"Legitimate",
+    "Confidence":"0.07",
+    "Model":"RF",
+    "Explanation":"Although rule-based indicators are present (amount exceeds $10,000), the model considers this transaction legitimate with confidence."
+  },
+  {
+    "TransactionID":600,
+    "Prediction":"Legitimate",
+    "Confidence":"0.02",
+    "Model":"RF",
+    "Explanation":"Although rule-based indicators are present (amount exceeds $10,000), the model considers this transaction legitimate with confidence."
+  },
+  {
+    "TransactionID":603,
+    "Prediction":"Legitimate",
+    "Confidence":"0.04",
+    "Model":"RF",
+    "Explanation":"Although rule-based indicators are present (amount exceeds $10,000, transaction involves a high-risk country, structuring pattern detected), the model considers this transaction legitimate with confidence."
+  },
+  {
+    "TransactionID":608,
+    "Prediction":"Legitimate",
+    "Confidence":"0.21",
+    "Model":"RF",
+    "Explanation":"Although rule-based indicators are present (amount exceeds $10,000, previous suspicious activity reported), the model considers this transaction legitimate with confidence."
+  },
+  {
+    "TransactionID":611,
+    "Prediction":"Legitimate",
+    "Confidence":"0.06",
+    "Model":"RF",
+    "Explanation":"Although rule-based indicators are present (foreign location), the model considers this transaction legitimate with confidence."
+  },
+  {
+    "TransactionID":612,
+    "Prediction":"Fraudulent",
+    "Confidence":"0.87",
+    "Model":"RF",
+    "Explanation":"This transaction is considered suspicious because it amount exceeds $10,000, structuring pattern detected."
+  },
+  {
+    "TransactionID":614,
+    "Prediction":"Legitimate",
+    "Confidence":"0.10",
+    "Model":"RF",
+    "Explanation":"Although rule-based indicators are present (amount exceeds $10,000, transaction involves a high-risk country, foreign location, missing declared purpose, previous suspicious activity reported), the model considers this transaction legitimate with confidence."
+  },
+  {
+    "TransactionID":618,
+    "Prediction":"Legitimate",
+    "Confidence":"0.10",
+    "Model":"RF",
+    "Explanation":"Although rule-based indicators are present (amount exceeds $10,000), the model considers this transaction legitimate with confidence."
+  },
+  {
+    "TransactionID":619,
+    "Prediction":"Fraudulent",
+    "Confidence":"0.74",
+    "Model":"RF",
+    "Explanation":"This transaction is considered suspicious because it amount exceeds $10,000, transaction involves a high-risk country, foreign location, structuring pattern detected."
+  },
+  {
+    "TransactionID":621,
+    "Prediction":"Legitimate",
+    "Confidence":"0.10",
+    "Model":"RF",
+    "Explanation":"Although rule-based indicators are present (amount exceeds $10,000, transaction involves a high-risk country, foreign location, missing declared purpose), the model considers this transaction legitimate with confidence."
+  },
+  {
+    "TransactionID":629,
+    "Prediction":"Legitimate",
+    "Confidence":"0.03",
+    "Model":"RF",
+    "Explanation":"Although rule-based indicators are present (amount exceeds $10,000, structuring pattern detected), the model considers this transaction legitimate with confidence."
+  },
+  {
+    "TransactionID":631,
+    "Prediction":"Fraudulent",
+    "Confidence":"0.76",
+    "Model":"RF",
+    "Explanation":"This transaction is considered suspicious because it structuring pattern detected."
+  },
+  {
+    "TransactionID":638,
+    "Prediction":"Legitimate",
+    "Confidence":"0.03",
+    "Model":"RF",
+    "Explanation":"Although rule-based indicators are present (amount exceeds $10,000, transaction involves a high-risk country), the model considers this transaction legitimate with confidence."
+  },
+  {
+    "TransactionID":652,
+    "Prediction":"Legitimate",
+    "Confidence":"0.07",
+    "Model":"RF",
+    "Explanation":"Although rule-based indicators are present (amount exceeds $10,000, transaction involves a high-risk country), the model considers this transaction legitimate with confidence."
+  },
+  {
+    "TransactionID":655,
+    "Prediction":"Legitimate",
+    "Confidence":"0.08",
+    "Model":"RF",
+    "Explanation":"Although rule-based indicators are present (amount exceeds $10,000, transaction involves a high-risk country, missing declared purpose, structuring pattern detected), the model considers this transaction legitimate with confidence."
+  },
+  {
+    "TransactionID":671,
+    "Prediction":"Legitimate",
+    "Confidence":"0.03",
+    "Model":"RF",
+    "Explanation":"Although rule-based indicators are present (amount exceeds $10,000, transaction involves a high-risk country, missing declared purpose), the model considers this transaction legitimate with confidence."
+  },
+  {
+    "TransactionID":675,
+    "Prediction":"Fraudulent",
+    "Confidence":"0.31",
+    "Model":"RF",
+    "Explanation":"This transaction is considered suspicious because it amount exceeds $10,000, transaction involves a high-risk country, structuring pattern detected."
+  },
+  {
+    "TransactionID":679,
+    "Prediction":"Fraudulent",
+    "Confidence":"0.82",
+    "Model":"RF",
+    "Explanation":"This transaction is considered suspicious because it amount exceeds $10,000."
+  },
+  {
+    "TransactionID":680,
+    "Prediction":"Legitimate",
+    "Confidence":"0.12",
+    "Model":"RF",
+    "Explanation":"Although rule-based indicators are present (amount exceeds $10,000), the model considers this transaction legitimate with confidence."
+  },
+  {
+    "TransactionID":694,
+    "Prediction":"Legitimate",
+    "Confidence":"0.08",
+    "Model":"RF",
+    "Explanation":"Although rule-based indicators are present (amount exceeds $10,000, transaction involves a high-risk country, missing declared purpose), the model considers this transaction legitimate with confidence."
+  },
+  {
+    "TransactionID":702,
+    "Prediction":"Legitimate",
+    "Confidence":"0.03",
+    "Model":"RF",
+    "Explanation":"Although rule-based indicators are present (amount exceeds $10,000), the model considers this transaction legitimate with confidence."
+  },
+  {
+    "TransactionID":713,
+    "Prediction":"Legitimate",
+    "Confidence":"0.13",
+    "Model":"RF",
+    "Explanation":"Although rule-based indicators are present (amount exceeds $10,000, transaction involves a high-risk country, structuring pattern detected), the model considers this transaction legitimate with confidence."
+  },
+  {
+    "TransactionID":721,
+    "Prediction":"Legitimate",
+    "Confidence":"0.01",
+    "Model":"RF",
+    "Explanation":"Although rule-based indicators are present (amount exceeds $10,000, transaction involves a high-risk country, foreign location, structuring pattern detected), the model considers this transaction legitimate with confidence."
+  },
+  {
+    "TransactionID":731,
+    "Prediction":"Legitimate",
+    "Confidence":"0.15",
+    "Model":"RF",
+    "Explanation":"Although rule-based indicators are present (amount exceeds $10,000, missing declared purpose, structuring pattern detected), the model considers this transaction legitimate with confidence."
+  },
+  {
+    "TransactionID":744,
+    "Prediction":"Legitimate",
+    "Confidence":"0.07",
+    "Model":"RF",
+    "Explanation":"Although rule-based indicators are present (amount exceeds $10,000, transaction involves a high-risk country), the model considers this transaction legitimate with confidence."
+  },
+  {
+    "TransactionID":745,
+    "Prediction":"Legitimate",
+    "Confidence":"0.06",
+    "Model":"RF",
+    "Explanation":"Although rule-based indicators are present (amount exceeds $10,000, transaction involves a high-risk country, foreign location, missing declared purpose, structuring pattern detected), the model considers this transaction legitimate with confidence."
+  },
+  {
+    "TransactionID":747,
+    "Prediction":"Legitimate",
+    "Confidence":"0.09",
+    "Model":"RF",
+    "Explanation":"Although rule-based indicators are present (amount exceeds $10,000), the model considers this transaction legitimate with confidence."
+  },
+  {
+    "TransactionID":756,
+    "Prediction":"Fraudulent",
+    "Confidence":"0.66",
+    "Model":"RF",
+    "Explanation":"This transaction is considered suspicious because it amount exceeds $10,000, foreign location."
+  },
+  {
+    "TransactionID":758,
+    "Prediction":"Legitimate",
+    "Confidence":"0.11",
+    "Model":"RF",
+    "Explanation":"Although rule-based indicators are present (amount exceeds $10,000, previous suspicious activity reported), the model considers this transaction legitimate with confidence."
+  },
+  {
+    "TransactionID":760,
+    "Prediction":"Fraudulent",
+    "Confidence":"0.75",
+    "Model":"RF",
+    "Explanation":"This transaction is considered suspicious because it transaction involves a high-risk country, missing declared purpose."
+  },
+  {
+    "TransactionID":765,
+    "Prediction":"Legitimate",
+    "Confidence":"0.12",
+    "Model":"RF",
+    "Explanation":"Although rule-based indicators are present (amount exceeds $10,000, transaction involves a high-risk country), the model considers this transaction legitimate with confidence."
+  },
+  {
+    "TransactionID":772,
+    "Prediction":"Legitimate",
+    "Confidence":"0.21",
+    "Model":"RF",
+    "Explanation":"Although rule-based indicators are present (amount exceeds $10,000), the model considers this transaction legitimate with confidence."
+  },
+  {
+    "TransactionID":781,
+    "Prediction":"Legitimate",
+    "Confidence":"0.08",
+    "Model":"RF",
+    "Explanation":"Although rule-based indicators are present (amount exceeds $10,000, foreign location, missing declared purpose), the model considers this transaction legitimate with confidence."
+  },
+  {
+    "TransactionID":783,
+    "Prediction":"Legitimate",
+    "Confidence":"0.03",
+    "Model":"RF",
+    "Explanation":"Although rule-based indicators are present (amount exceeds $10,000), the model considers this transaction legitimate with confidence."
+  },
+  {
+    "TransactionID":786,
+    "Prediction":"Legitimate",
+    "Confidence":"0.07",
+    "Model":"RF",
+    "Explanation":"Although rule-based indicators are present (transaction involves a high-risk country, foreign location), the model considers this transaction legitimate with confidence."
+  },
+  {
+    "TransactionID":788,
+    "Prediction":"Legitimate",
+    "Confidence":"0.08",
+    "Model":"RF",
+    "Explanation":"Although rule-based indicators are present (amount exceeds $10,000, transaction involves a high-risk country, foreign location, missing declared purpose), the model considers this transaction legitimate with confidence."
+  },
+  {
+    "TransactionID":789,
+    "Prediction":"Legitimate",
+    "Confidence":"0.03",
+    "Model":"RF",
+    "Explanation":"Although rule-based indicators are present (foreign location), the model considers this transaction legitimate with confidence."
+  },
+  {
+    "TransactionID":793,
+    "Prediction":"Legitimate",
+    "Confidence":"0.15",
+    "Model":"RF",
+    "Explanation":"Although rule-based indicators are present (amount exceeds $10,000, transaction involves a high-risk country, foreign location, missing declared purpose), the model considers this transaction legitimate with confidence."
+  },
+  {
+    "TransactionID":803,
+    "Prediction":"Legitimate",
+    "Confidence":"0.06",
+    "Model":"RF",
+    "Explanation":"No risk indicators detected."
+  },
+  {
+    "TransactionID":808,
+    "Prediction":"Legitimate",
+    "Confidence":"0.09",
+    "Model":"RF",
+    "Explanation":"Although rule-based indicators are present (amount exceeds $10,000, structuring pattern detected), the model considers this transaction legitimate with confidence."
+  },
+  {
+    "TransactionID":809,
+    "Prediction":"Legitimate",
+    "Confidence":"0.03",
+    "Model":"RF",
+    "Explanation":"Although rule-based indicators are present (amount exceeds $10,000, foreign location), the model considers this transaction legitimate with confidence."
+  },
+  {
+    "TransactionID":825,
+    "Prediction":"Legitimate",
+    "Confidence":"0.11",
+    "Model":"RF",
+    "Explanation":"Although rule-based indicators are present (amount exceeds $10,000, transaction involves a high-risk country, structuring pattern detected), the model considers this transaction legitimate with confidence."
+  },
+  {
+    "TransactionID":830,
+    "Prediction":"Legitimate",
+    "Confidence":"0.07",
+    "Model":"RF",
+    "Explanation":"Although rule-based indicators are present (amount exceeds $10,000), the model considers this transaction legitimate with confidence."
+  },
+  {
+    "TransactionID":833,
+    "Prediction":"Fraudulent",
+    "Confidence":"0.66",
+    "Model":"RF",
+    "Explanation":"This transaction is considered suspicious because it amount exceeds $10,000."
+  },
+  {
+    "TransactionID":835,
+    "Prediction":"Legitimate",
+    "Confidence":"0.14",
+    "Model":"RF",
+    "Explanation":"Although rule-based indicators are present (amount exceeds $10,000, structuring pattern detected), the model considers this transaction legitimate with confidence."
+  },
+  {
+    "TransactionID":856,
+    "Prediction":"Legitimate",
+    "Confidence":"0.09",
+    "Model":"RF",
+    "Explanation":"No risk indicators detected."
+  },
+  {
+    "TransactionID":858,
+    "Prediction":"Legitimate",
+    "Confidence":"0.05",
+    "Model":"RF",
+    "Explanation":"Although rule-based indicators are present (amount exceeds $10,000, structuring pattern detected), the model considers this transaction legitimate with confidence."
+  },
+  {
+    "TransactionID":863,
+    "Prediction":"Legitimate",
+    "Confidence":"0.27",
+    "Model":"RF",
+    "Explanation":"Although rule-based indicators are present (amount exceeds $10,000, transaction involves a high-risk country), the model considers this transaction legitimate with confidence."
+  },
+  {
+    "TransactionID":875,
+    "Prediction":"Legitimate",
+    "Confidence":"0.04",
+    "Model":"RF",
+    "Explanation":"Although rule-based indicators are present (amount exceeds $10,000, foreign location, structuring pattern detected), the model considers this transaction legitimate with confidence."
+  },
+  {
+    "TransactionID":880,
+    "Prediction":"Legitimate",
+    "Confidence":"0.05",
+    "Model":"RF",
+    "Explanation":"Although rule-based indicators are present (amount exceeds $10,000, transaction involves a high-risk country), the model considers this transaction legitimate with confidence."
+  },
+  {
+    "TransactionID":887,
+    "Prediction":"Legitimate",
+    "Confidence":"0.08",
+    "Model":"RF",
+    "Explanation":"Although rule-based indicators are present (amount exceeds $10,000, structuring pattern detected), the model considers this transaction legitimate with confidence."
+  },
+  {
+    "TransactionID":888,
+    "Prediction":"Fraudulent",
+    "Confidence":"0.77",
+    "Model":"RF",
+    "Explanation":"This transaction is considered suspicious because it amount exceeds $10,000, transaction involves a high-risk country, structuring pattern detected."
+  },
+  {
+    "TransactionID":889,
+    "Prediction":"Legitimate",
+    "Confidence":"0.06",
+    "Model":"RF",
+    "Explanation":"Although rule-based indicators are present (amount exceeds $10,000, transaction involves a high-risk country, foreign location), the model considers this transaction legitimate with confidence."
+  },
+  {
+    "TransactionID":890,
+    "Prediction":"Legitimate",
+    "Confidence":"0.08",
+    "Model":"RF",
+    "Explanation":"Although rule-based indicators are present (amount exceeds $10,000, foreign location), the model considers this transaction legitimate with confidence."
+  },
+  {
+    "TransactionID":906,
+    "Prediction":"Legitimate",
+    "Confidence":"0.02",
+    "Model":"RF",
+    "Explanation":"Although rule-based indicators are present (amount exceeds $10,000, previous suspicious activity reported), the model considers this transaction legitimate with confidence."
+  },
+  {
+    "TransactionID":907,
+    "Prediction":"Legitimate",
+    "Confidence":"0.03",
+    "Model":"RF",
+    "Explanation":"Although rule-based indicators are present (amount exceeds $10,000, transaction involves a high-risk country, structuring pattern detected), the model considers this transaction legitimate with confidence."
+  },
+  {
+    "TransactionID":908,
+    "Prediction":"Legitimate",
+    "Confidence":"0.02",
+    "Model":"RF",
+    "Explanation":"Although rule-based indicators are present (amount exceeds $10,000), the model considers this transaction legitimate with confidence."
+  },
+  {
+    "TransactionID":910,
+    "Prediction":"Legitimate",
+    "Confidence":"0.07",
+    "Model":"RF",
+    "Explanation":"Although rule-based indicators are present (amount exceeds $10,000, missing declared purpose, structuring pattern detected), the model considers this transaction legitimate with confidence."
+  },
+  {
+    "TransactionID":917,
+    "Prediction":"Legitimate",
+    "Confidence":"0.05",
+    "Model":"RF",
+    "Explanation":"Although rule-based indicators are present (amount exceeds $10,000, previous suspicious activity reported), the model considers this transaction legitimate with confidence."
+  },
+  {
+    "TransactionID":931,
+    "Prediction":"Legitimate",
+    "Confidence":"0.09",
+    "Model":"RF",
+    "Explanation":"Although rule-based indicators are present (amount exceeds $10,000), the model considers this transaction legitimate with confidence."
+  },
+  {
+    "TransactionID":938,
+    "Prediction":"Legitimate",
+    "Confidence":"0.06",
+    "Model":"RF",
+    "Explanation":"Although rule-based indicators are present (amount exceeds $10,000, structuring pattern detected), the model considers this transaction legitimate with confidence."
+  },
+  {
+    "TransactionID":939,
+    "Prediction":"Legitimate",
+    "Confidence":"0.09",
+    "Model":"RF",
+    "Explanation":"No risk indicators detected."
+  },
+  {
+    "TransactionID":945,
+    "Prediction":"Legitimate",
+    "Confidence":"0.18",
+    "Model":"RF",
+    "Explanation":"Although rule-based indicators are present (amount exceeds $10,000), the model considers this transaction legitimate with confidence."
+  },
+  {
+    "TransactionID":950,
+    "Prediction":"Legitimate",
+    "Confidence":"0.11",
+    "Model":"RF",
+    "Explanation":"No risk indicators detected."
+  },
+  {
+    "TransactionID":965,
+    "Prediction":"Legitimate",
+    "Confidence":"0.12",
+    "Model":"RF",
+    "Explanation":"Although rule-based indicators are present (amount exceeds $10,000), the model considers this transaction legitimate with confidence."
+  },
+  {
+    "TransactionID":966,
+    "Prediction":"Legitimate",
+    "Confidence":"0.05",
+    "Model":"RF",
+    "Explanation":"Although rule-based indicators are present (amount exceeds $10,000, structuring pattern detected), the model considers this transaction legitimate with confidence."
+  },
+  {
+    "TransactionID":974,
+    "Prediction":"Legitimate",
+    "Confidence":"0.11",
+    "Model":"RF",
+    "Explanation":"Although rule-based indicators are present (transaction involves a high-risk country, structuring pattern detected), the model considers this transaction legitimate with confidence."
+  },
+  {
+    "TransactionID":975,
+    "Prediction":"Legitimate",
+    "Confidence":"0.05",
+    "Model":"RF",
+    "Explanation":"Although rule-based indicators are present (amount exceeds $10,000, previous suspicious activity reported, structuring pattern detected), the model considers this transaction legitimate with confidence."
+  },
+  {
+    "TransactionID":979,
+    "Prediction":"Fraudulent",
+    "Confidence":"0.72",
+    "Model":"RF",
+    "Explanation":"This transaction is considered suspicious because it amount exceeds $10,000, transaction involves a high-risk country, foreign location, missing declared purpose."
+  },
+  {
+    "TransactionID":988,
+    "Prediction":"Legitimate",
+    "Confidence":"0.23",
+    "Model":"RF",
+    "Explanation":"Although rule-based indicators are present (amount exceeds $10,000), the model considers this transaction legitimate with confidence."
+  },
+  {
+    "TransactionID":991,
+    "Prediction":"Legitimate",
+    "Confidence":"0.04",
+    "Model":"RF",
+    "Explanation":"Although rule-based indicators are present (amount exceeds $10,000, structuring pattern detected), the model considers this transaction legitimate with confidence."
+  },
+  {
+    "TransactionID":994,
+    "Prediction":"Legitimate",
+    "Confidence":"0.03",
+    "Model":"RF",
+    "Explanation":"Although rule-based indicators are present (amount exceeds $10,000), the model considers this transaction legitimate with confidence."
+  },
+  {
+    "TransactionID":1005,
+    "Prediction":"Legitimate",
+    "Confidence":"0.19",
+    "Model":"RF",
+    "Explanation":"Although rule-based indicators are present (amount exceeds $10,000, transaction involves a high-risk country, structuring pattern detected), the model considers this transaction legitimate with confidence."
+  },
+  {
+    "TransactionID":1028,
+    "Prediction":"Legitimate",
+    "Confidence":"0.28",
+    "Model":"RF",
+    "Explanation":"Although rule-based indicators are present (amount exceeds $10,000), the model considers this transaction legitimate with confidence."
+  },
+  {
+    "TransactionID":1034,
+    "Prediction":"Legitimate",
+    "Confidence":"0.13",
+    "Model":"RF",
+    "Explanation":"Although rule-based indicators are present (amount exceeds $10,000, transaction involves a high-risk country), the model considers this transaction legitimate with confidence."
+  },
+  {
+    "TransactionID":1037,
+    "Prediction":"Legitimate",
+    "Confidence":"0.07",
+    "Model":"RF",
+    "Explanation":"Although rule-based indicators are present (amount exceeds $10,000), the model considers this transaction legitimate with confidence."
+  },
+  {
+    "TransactionID":1042,
+    "Prediction":"Legitimate",
+    "Confidence":"0.06",
+    "Model":"RF",
+    "Explanation":"Although rule-based indicators are present (foreign location, missing declared purpose), the model considers this transaction legitimate with confidence."
+  },
+  {
+    "TransactionID":1054,
+    "Prediction":"Legitimate",
+    "Confidence":"0.05",
+    "Model":"RF",
+    "Explanation":"No risk indicators detected."
+  },
+  {
+    "TransactionID":1055,
+    "Prediction":"Legitimate",
+    "Confidence":"0.10",
+    "Model":"RF",
+    "Explanation":"No risk indicators detected."
+  },
+  {
+    "TransactionID":1064,
+    "Prediction":"Legitimate",
+    "Confidence":"0.04",
+    "Model":"RF",
+    "Explanation":"Although rule-based indicators are present (transaction involves a high-risk country), the model considers this transaction legitimate with confidence."
+  },
+  {
+    "TransactionID":1076,
+    "Prediction":"Legitimate",
+    "Confidence":"0.24",
+    "Model":"RF",
+    "Explanation":"Although rule-based indicators are present (amount exceeds $10,000), the model considers this transaction legitimate with confidence."
+  },
+  {
+    "TransactionID":1079,
+    "Prediction":"Legitimate",
+    "Confidence":"0.05",
+    "Model":"RF",
+    "Explanation":"Although rule-based indicators are present (amount exceeds $10,000, transaction involves a high-risk country), the model considers this transaction legitimate with confidence."
+  },
+  {
+    "TransactionID":1081,
+    "Prediction":"Fraudulent",
+    "Confidence":"0.78",
+    "Model":"RF",
+    "Explanation":"This transaction is considered suspicious because it amount exceeds $10,000, missing declared purpose."
+  },
+  {
+    "TransactionID":1084,
+    "Prediction":"Legitimate",
+    "Confidence":"0.04",
+    "Model":"RF",
+    "Explanation":"Although rule-based indicators are present (amount exceeds $10,000, previous suspicious activity reported, structuring pattern detected), the model considers this transaction legitimate with confidence."
+  },
+  {
+    "TransactionID":1085,
+    "Prediction":"Legitimate",
+    "Confidence":"0.06",
+    "Model":"RF",
+    "Explanation":"Although rule-based indicators are present (amount exceeds $10,000, structuring pattern detected), the model considers this transaction legitimate with confidence."
+  },
+  {
+    "TransactionID":1090,
+    "Prediction":"Legitimate",
+    "Confidence":"0.02",
+    "Model":"RF",
+    "Explanation":"Although rule-based indicators are present (amount exceeds $10,000), the model considers this transaction legitimate with confidence."
+  },
+  {
+    "TransactionID":1092,
+    "Prediction":"Legitimate",
+    "Confidence":"0.07",
+    "Model":"RF",
+    "Explanation":"Although rule-based indicators are present (amount exceeds $10,000, missing declared purpose), the model considers this transaction legitimate with confidence."
+  },
+  {
+    "TransactionID":1101,
+    "Prediction":"Legitimate",
+    "Confidence":"0.11",
+    "Model":"RF",
+    "Explanation":"Although rule-based indicators are present (amount exceeds $10,000, transaction involves a high-risk country), the model considers this transaction legitimate with confidence."
+  },
+  {
+    "TransactionID":1104,
+    "Prediction":"Legitimate",
+    "Confidence":"0.23",
+    "Model":"RF",
+    "Explanation":"Although rule-based indicators are present (amount exceeds $10,000), the model considers this transaction legitimate with confidence."
+  },
+  {
+    "TransactionID":1106,
+    "Prediction":"Legitimate",
+    "Confidence":"0.11",
+    "Model":"RF",
+    "Explanation":"Although rule-based indicators are present (amount exceeds $10,000, transaction involves a high-risk country, foreign location), the model considers this transaction legitimate with confidence."
+  },
+  {
+    "TransactionID":1108,
+    "Prediction":"Fraudulent",
+    "Confidence":"0.77",
+    "Model":"RF",
+    "Explanation":"This transaction is considered suspicious because it amount exceeds $10,000."
+  },
+  {
+    "TransactionID":1117,
+    "Prediction":"Legitimate",
+    "Confidence":"0.03",
+    "Model":"RF",
+    "Explanation":"Although rule-based indicators are present (amount exceeds $10,000, foreign location), the model considers this transaction legitimate with confidence."
+  },
+  {
+    "TransactionID":1119,
+    "Prediction":"Legitimate",
+    "Confidence":"0.04",
+    "Model":"RF",
+    "Explanation":"Although rule-based indicators are present (amount exceeds $10,000, foreign location, structuring pattern detected), the model considers this transaction legitimate with confidence."
+  },
+  {
+    "TransactionID":1121,
+    "Prediction":"Legitimate",
+    "Confidence":"0.01",
+    "Model":"RF",
+    "Explanation":"Although rule-based indicators are present (amount exceeds $10,000, structuring pattern detected), the model considers this transaction legitimate with confidence."
+  },
+  {
+    "TransactionID":1135,
+    "Prediction":"Legitimate",
+    "Confidence":"0.06",
+    "Model":"RF",
+    "Explanation":"Although rule-based indicators are present (amount exceeds $10,000, transaction involves a high-risk country), the model considers this transaction legitimate with confidence."
+  },
+  {
+    "TransactionID":1138,
+    "Prediction":"Legitimate",
+    "Confidence":"0.08",
+    "Model":"RF",
+    "Explanation":"Although rule-based indicators are present (amount exceeds $10,000, transaction involves a high-risk country), the model considers this transaction legitimate with confidence."
+  },
+  {
+    "TransactionID":1165,
+    "Prediction":"Legitimate",
+    "Confidence":"0.13",
+    "Model":"RF",
+    "Explanation":"Although rule-based indicators are present (amount exceeds $10,000), the model considers this transaction legitimate with confidence."
+  },
+  {
+    "TransactionID":1174,
+    "Prediction":"Legitimate",
+    "Confidence":"0.15",
+    "Model":"RF",
+    "Explanation":"Although rule-based indicators are present (amount exceeds $10,000, missing declared purpose), the model considers this transaction legitimate with confidence."
+  },
+  {
+    "TransactionID":1179,
+    "Prediction":"Legitimate",
+    "Confidence":"0.15",
+    "Model":"RF",
+    "Explanation":"Although rule-based indicators are present (amount exceeds $10,000), the model considers this transaction legitimate with confidence."
+  },
+  {
+    "TransactionID":1180,
+    "Prediction":"Fraudulent",
+    "Confidence":"0.85",
+    "Model":"RF",
+    "Explanation":"This transaction is considered suspicious because it amount exceeds $10,000."
+  },
+  {
+    "TransactionID":1183,
+    "Prediction":"Legitimate",
+    "Confidence":"0.08",
+    "Model":"RF",
+    "Explanation":"Although rule-based indicators are present (amount exceeds $10,000, missing declared purpose), the model considers this transaction legitimate with confidence."
+  },
+  {
+    "TransactionID":1186,
+    "Prediction":"Legitimate",
+    "Confidence":"0.11",
+    "Model":"RF",
+    "Explanation":"Although rule-based indicators are present (amount exceeds $10,000), the model considers this transaction legitimate with confidence."
+  },
+  {
+    "TransactionID":1191,
+    "Prediction":"Legitimate",
+    "Confidence":"0.12",
+    "Model":"RF",
+    "Explanation":"Although rule-based indicators are present (amount exceeds $10,000, transaction involves a high-risk country, missing declared purpose), the model considers this transaction legitimate with confidence."
+  },
+  {
+    "TransactionID":1194,
+    "Prediction":"Legitimate",
+    "Confidence":"0.01",
+    "Model":"RF",
+    "Explanation":"Although rule-based indicators are present (amount exceeds $10,000, missing declared purpose), the model considers this transaction legitimate with confidence."
+  },
+  {
+    "TransactionID":1197,
+    "Prediction":"Legitimate",
+    "Confidence":"0.19",
+    "Model":"RF",
+    "Explanation":"Although rule-based indicators are present (amount exceeds $10,000, transaction involves a high-risk country), the model considers this transaction legitimate with confidence."
+  },
+  {
+    "TransactionID":1199,
+    "Prediction":"Legitimate",
+    "Confidence":"0.08",
+    "Model":"RF",
+    "Explanation":"Although rule-based indicators are present (amount exceeds $10,000, transaction involves a high-risk country), the model considers this transaction legitimate with confidence."
+  },
+  {
+    "TransactionID":1224,
+    "Prediction":"Fraudulent",
+    "Confidence":"0.72",
+    "Model":"RF",
+    "Explanation":"This transaction is considered suspicious because it amount exceeds $10,000, structuring pattern detected."
+  },
+  {
+    "TransactionID":1226,
+    "Prediction":"Legitimate",
+    "Confidence":"0.17",
+    "Model":"RF",
+    "Explanation":"Although rule-based indicators are present (amount exceeds $10,000, transaction involves a high-risk country, missing declared purpose), the model considers this transaction legitimate with confidence."
+  },
+  {
+    "TransactionID":1230,
+    "Prediction":"Fraudulent",
+    "Confidence":"0.60",
+    "Model":"RF",
+    "Explanation":"This transaction is considered suspicious because it amount exceeds $10,000, previous suspicious activity reported."
+  },
+  {
+    "TransactionID":1234,
+    "Prediction":"Legitimate",
+    "Confidence":"0.02",
+    "Model":"RF",
+    "Explanation":"Although rule-based indicators are present (amount exceeds $10,000, missing declared purpose), the model considers this transaction legitimate with confidence."
+  },
+  {
+    "TransactionID":1243,
+    "Prediction":"Legitimate",
+    "Confidence":"0.21",
+    "Model":"RF",
+    "Explanation":"Although rule-based indicators are present (amount exceeds $10,000, foreign location), the model considers this transaction legitimate with confidence."
+  },
+  {
+    "TransactionID":1245,
+    "Prediction":"Fraudulent",
+    "Confidence":"0.91",
+    "Model":"RF",
+    "Explanation":"This transaction is considered suspicious because it amount exceeds $10,000, transaction involves a high-risk country."
+  },
+  {
+    "TransactionID":1246,
+    "Prediction":"Legitimate",
+    "Confidence":"0.08",
+    "Model":"RF",
+    "Explanation":"Although rule-based indicators are present (foreign location), the model considers this transaction legitimate with confidence."
+  },
+  {
+    "TransactionID":1260,
+    "Prediction":"Fraudulent",
+    "Confidence":"0.67",
+    "Model":"RF",
+    "Explanation":"This transaction is considered suspicious because it amount exceeds $10,000."
+  },
+  {
+    "TransactionID":1266,
+    "Prediction":"Legitimate",
+    "Confidence":"0.04",
+    "Model":"RF",
+    "Explanation":"Although rule-based indicators are present (amount exceeds $10,000), the model considers this transaction legitimate with confidence."
+  },
+  {
+    "TransactionID":1274,
+    "Prediction":"Legitimate",
+    "Confidence":"0.04",
+    "Model":"RF",
+    "Explanation":"Although rule-based indicators are present (amount exceeds $10,000, structuring pattern detected), the model considers this transaction legitimate with confidence."
+  },
+  {
+    "TransactionID":1275,
+    "Prediction":"Legitimate",
+    "Confidence":"0.07",
+    "Model":"RF",
+    "Explanation":"Although rule-based indicators are present (amount exceeds $10,000, transaction involves a high-risk country, foreign location, structuring pattern detected), the model considers this transaction legitimate with confidence."
+  },
+  {
+    "TransactionID":1279,
+    "Prediction":"Fraudulent",
+    "Confidence":"0.75",
+    "Model":"RF",
+    "Explanation":"This transaction is considered suspicious because it amount exceeds $10,000, transaction involves a high-risk country, missing declared purpose, structuring pattern detected."
+  },
+  {
+    "TransactionID":1285,
+    "Prediction":"Legitimate",
+    "Confidence":"0.08",
+    "Model":"RF",
+    "Explanation":"Although rule-based indicators are present (amount exceeds $10,000, transaction involves a high-risk country, missing declared purpose), the model considers this transaction legitimate with confidence."
+  },
+  {
+    "TransactionID":1290,
+    "Prediction":"Legitimate",
+    "Confidence":"0.03",
+    "Model":"RF",
+    "Explanation":"Although rule-based indicators are present (amount exceeds $10,000, transaction involves a high-risk country, structuring pattern detected), the model considers this transaction legitimate with confidence."
+  },
+  {
+    "TransactionID":1291,
+    "Prediction":"Legitimate",
+    "Confidence":"0.08",
+    "Model":"RF",
+    "Explanation":"Although rule-based indicators are present (amount exceeds $10,000, missing declared purpose), the model considers this transaction legitimate with confidence."
+  },
+  {
+    "TransactionID":1293,
+    "Prediction":"Legitimate",
+    "Confidence":"0.13",
+    "Model":"RF",
+    "Explanation":"Although rule-based indicators are present (amount exceeds $10,000, foreign location), the model considers this transaction legitimate with confidence."
+  },
+  {
+    "TransactionID":1302,
+    "Prediction":"Legitimate",
+    "Confidence":"0.09",
+    "Model":"RF",
+    "Explanation":"Although rule-based indicators are present (amount exceeds $10,000, structuring pattern detected), the model considers this transaction legitimate with confidence."
+  },
+  {
+    "TransactionID":1311,
+    "Prediction":"Legitimate",
+    "Confidence":"0.12",
+    "Model":"RF",
+    "Explanation":"Although rule-based indicators are present (amount exceeds $10,000), the model considers this transaction legitimate with confidence."
+  },
+  {
+    "TransactionID":1314,
+    "Prediction":"Legitimate",
+    "Confidence":"0.10",
+    "Model":"RF",
+    "Explanation":"Although rule-based indicators are present (amount exceeds $10,000, transaction involves a high-risk country), the model considers this transaction legitimate with confidence."
+  },
+  {
+    "TransactionID":1320,
+    "Prediction":"Legitimate",
+    "Confidence":"0.09",
+    "Model":"RF",
+    "Explanation":"Although rule-based indicators are present (amount exceeds $10,000), the model considers this transaction legitimate with confidence."
+  },
+  {
+    "TransactionID":1324,
+    "Prediction":"Legitimate",
+    "Confidence":"0.08",
+    "Model":"RF",
+    "Explanation":"Although rule-based indicators are present (amount exceeds $10,000), the model considers this transaction legitimate with confidence."
+  },
+  {
+    "TransactionID":1325,
+    "Prediction":"Fraudulent",
+    "Confidence":"0.61",
+    "Model":"RF",
+    "Explanation":"This transaction is considered suspicious because it amount exceeds $10,000."
+  },
+  {
+    "TransactionID":1334,
+    "Prediction":"Legitimate",
+    "Confidence":"0.08",
+    "Model":"RF",
+    "Explanation":"Although rule-based indicators are present (amount exceeds $10,000, transaction involves a high-risk country), the model considers this transaction legitimate with confidence."
+  },
+  {
+    "TransactionID":1336,
+    "Prediction":"Legitimate",
+    "Confidence":"0.09",
+    "Model":"RF",
+    "Explanation":"Although rule-based indicators are present (amount exceeds $10,000, foreign location, structuring pattern detected), the model considers this transaction legitimate with confidence."
+  },
+  {
+    "TransactionID":1346,
+    "Prediction":"Legitimate",
+    "Confidence":"0.18",
+    "Model":"RF",
+    "Explanation":"Although rule-based indicators are present (amount exceeds $10,000, missing declared purpose), the model considers this transaction legitimate with confidence."
+  },
+  {
+    "TransactionID":1351,
+    "Prediction":"Legitimate",
+    "Confidence":"0.04",
+    "Model":"RF",
+    "Explanation":"Although rule-based indicators are present (amount exceeds $10,000, foreign location, previous suspicious activity reported), the model considers this transaction legitimate with confidence."
+  },
+  {
+    "TransactionID":1365,
+    "Prediction":"Legitimate",
+    "Confidence":"0.10",
+    "Model":"RF",
+    "Explanation":"Although rule-based indicators are present (foreign location), the model considers this transaction legitimate with confidence."
+  },
+  {
+    "TransactionID":1371,
+    "Prediction":"Legitimate",
+    "Confidence":"0.07",
+    "Model":"RF",
+    "Explanation":"Although rule-based indicators are present (amount exceeds $10,000, transaction involves a high-risk country), the model considers this transaction legitimate with confidence."
+  },
+  {
+    "TransactionID":1379,
+    "Prediction":"Legitimate",
+    "Confidence":"0.07",
+    "Model":"RF",
+    "Explanation":"Although rule-based indicators are present (amount exceeds $10,000, previous suspicious activity reported), the model considers this transaction legitimate with confidence."
+  },
+  {
+    "TransactionID":1382,
+    "Prediction":"Legitimate",
+    "Confidence":"0.16",
+    "Model":"RF",
+    "Explanation":"Although rule-based indicators are present (amount exceeds $10,000), the model considers this transaction legitimate with confidence."
+  },
+  {
+    "TransactionID":1385,
+    "Prediction":"Legitimate",
+    "Confidence":"0.06",
+    "Model":"RF",
+    "Explanation":"Although rule-based indicators are present (amount exceeds $10,000, missing declared purpose), the model considers this transaction legitimate with confidence."
+  },
+  {
+    "TransactionID":1395,
+    "Prediction":"Legitimate",
+    "Confidence":"0.09",
+    "Model":"RF",
+    "Explanation":"Although rule-based indicators are present (amount exceeds $10,000, structuring pattern detected), the model considers this transaction legitimate with confidence."
+  },
+  {
+    "TransactionID":1396,
+    "Prediction":"Legitimate",
+    "Confidence":"0.11",
+    "Model":"RF",
+    "Explanation":"Although rule-based indicators are present (amount exceeds $10,000, missing declared purpose, previous suspicious activity reported), the model considers this transaction legitimate with confidence."
+  },
+  {
+    "TransactionID":1413,
+    "Prediction":"Legitimate",
+    "Confidence":"0.11",
+    "Model":"RF",
+    "Explanation":"Although rule-based indicators are present (amount exceeds $10,000, transaction involves a high-risk country, structuring pattern detected), the model considers this transaction legitimate with confidence."
+  },
+  {
+    "TransactionID":1415,
+    "Prediction":"Legitimate",
+    "Confidence":"0.04",
+    "Model":"RF",
+    "Explanation":"Although rule-based indicators are present (amount exceeds $10,000), the model considers this transaction legitimate with confidence."
+  },
+  {
+    "TransactionID":1420,
+    "Prediction":"Legitimate",
+    "Confidence":"0.13",
+    "Model":"RF",
+    "Explanation":"Although rule-based indicators are present (amount exceeds $10,000, transaction involves a high-risk country), the model considers this transaction legitimate with confidence."
+  },
+  {
+    "TransactionID":1424,
+    "Prediction":"Legitimate",
+    "Confidence":"0.20",
+    "Model":"RF",
+    "Explanation":"Although rule-based indicators are present (amount exceeds $10,000), the model considers this transaction legitimate with confidence."
+  },
+  {
+    "TransactionID":1426,
+    "Prediction":"Legitimate",
+    "Confidence":"0.20",
+    "Model":"RF",
+    "Explanation":"Although rule-based indicators are present (amount exceeds $10,000), the model considers this transaction legitimate with confidence."
+  },
+  {
+    "TransactionID":1432,
+    "Prediction":"Legitimate",
+    "Confidence":"0.21",
+    "Model":"RF",
+    "Explanation":"Although rule-based indicators are present (amount exceeds $10,000), the model considers this transaction legitimate with confidence."
+  },
+  {
+    "TransactionID":1434,
+    "Prediction":"Legitimate",
+    "Confidence":"0.05",
+    "Model":"RF",
+    "Explanation":"Although rule-based indicators are present (amount exceeds $10,000, foreign location), the model considers this transaction legitimate with confidence."
+  },
+  {
+    "TransactionID":1441,
+    "Prediction":"Legitimate",
+    "Confidence":"0.05",
+    "Model":"RF",
+    "Explanation":"Although rule-based indicators are present (amount exceeds $10,000, structuring pattern detected), the model considers this transaction legitimate with confidence."
+  },
+  {
+    "TransactionID":1450,
+    "Prediction":"Legitimate",
+    "Confidence":"0.03",
+    "Model":"RF",
+    "Explanation":"Although rule-based indicators are present (amount exceeds $10,000), the model considers this transaction legitimate with confidence."
+  },
+  {
+    "TransactionID":1451,
+    "Prediction":"Legitimate",
+    "Confidence":"0.01",
+    "Model":"RF",
+    "Explanation":"Although rule-based indicators are present (amount exceeds $10,000, missing declared purpose), the model considers this transaction legitimate with confidence."
+  },
+  {
+    "TransactionID":1454,
+    "Prediction":"Legitimate",
+    "Confidence":"0.26",
+    "Model":"RF",
+    "Explanation":"Although rule-based indicators are present (amount exceeds $10,000, missing declared purpose), the model considers this transaction legitimate with confidence."
+  },
+  {
+    "TransactionID":1461,
+    "Prediction":"Legitimate",
+    "Confidence":"0.06",
+    "Model":"RF",
+    "Explanation":"Although rule-based indicators are present (missing declared purpose), the model considers this transaction legitimate with confidence."
+  },
+  {
+    "TransactionID":1465,
+    "Prediction":"Legitimate",
+    "Confidence":"0.11",
+    "Model":"RF",
+    "Explanation":"Although rule-based indicators are present (amount exceeds $10,000, structuring pattern detected), the model considers this transaction legitimate with confidence."
+  },
+  {
+    "TransactionID":1466,
+    "Prediction":"Legitimate",
+    "Confidence":"0.08",
+    "Model":"RF",
+    "Explanation":"Although rule-based indicators are present (amount exceeds $10,000, structuring pattern detected), the model considers this transaction legitimate with confidence."
+  },
+  {
+    "TransactionID":1473,
+    "Prediction":"Fraudulent",
+    "Confidence":"0.73",
+    "Model":"RF",
+    "Explanation":"This transaction is considered suspicious because it amount exceeds $10,000."
+  },
+  {
+    "TransactionID":1474,
+    "Prediction":"Legitimate",
+    "Confidence":"0.06",
+    "Model":"RF",
+    "Explanation":"Although rule-based indicators are present (amount exceeds $10,000, missing declared purpose), the model considers this transaction legitimate with confidence."
+  },
+  {
+    "TransactionID":1475,
+    "Prediction":"Legitimate",
+    "Confidence":"0.04",
+    "Model":"RF",
+    "Explanation":"Although rule-based indicators are present (amount exceeds $10,000), the model considers this transaction legitimate with confidence."
+  },
+  {
+    "TransactionID":1484,
+    "Prediction":"Legitimate",
+    "Confidence":"0.11",
+    "Model":"RF",
+    "Explanation":"Although rule-based indicators are present (amount exceeds $10,000, foreign location, previous suspicious activity reported, structuring pattern detected), the model considers this transaction legitimate with confidence."
+  },
+  {
+    "TransactionID":1488,
+    "Prediction":"Legitimate",
+    "Confidence":"0.04",
+    "Model":"RF",
+    "Explanation":"Although rule-based indicators are present (amount exceeds $10,000, transaction involves a high-risk country), the model considers this transaction legitimate with confidence."
+  },
+  {
+    "TransactionID":1492,
+    "Prediction":"Fraudulent",
+    "Confidence":"0.68",
+    "Model":"RF",
+    "Explanation":"This transaction is considered suspicious because it amount exceeds $10,000, transaction involves a high-risk country."
+  },
+  {
+    "TransactionID":1498,
+    "Prediction":"Legitimate",
+    "Confidence":"0.05",
+    "Model":"RF",
+    "Explanation":"Although rule-based indicators are present (amount exceeds $10,000, transaction involves a high-risk country, missing declared purpose, structuring pattern detected), the model considers this transaction legitimate with confidence."
+  },
+  {
+    "TransactionID":1503,
+    "Prediction":"Fraudulent",
+    "Confidence":"0.77",
+    "Model":"RF",
+    "Explanation":"This transaction is considered suspicious because it amount exceeds $10,000, structuring pattern detected."
+  },
+  {
+    "TransactionID":1511,
+    "Prediction":"Legitimate",
+    "Confidence":"0.07",
+    "Model":"RF",
+    "Explanation":"Although rule-based indicators are present (amount exceeds $10,000, missing declared purpose), the model considers this transaction legitimate with confidence."
+  },
+  {
+    "TransactionID":1513,
+    "Prediction":"Legitimate",
+    "Confidence":"0.10",
+    "Model":"RF",
+    "Explanation":"Although rule-based indicators are present (amount exceeds $10,000, missing declared purpose), the model considers this transaction legitimate with confidence."
+  },
+  {
+    "TransactionID":1519,
+    "Prediction":"Legitimate",
+    "Confidence":"0.09",
+    "Model":"RF",
+    "Explanation":"Although rule-based indicators are present (amount exceeds $10,000), the model considers this transaction legitimate with confidence."
+  },
+  {
+    "TransactionID":1531,
+    "Prediction":"Legitimate",
+    "Confidence":"0.10",
+    "Model":"RF",
+    "Explanation":"Although rule-based indicators are present (amount exceeds $10,000, transaction involves a high-risk country, missing declared purpose), the model considers this transaction legitimate with confidence."
+  },
+  {
+    "TransactionID":1533,
+    "Prediction":"Legitimate",
+    "Confidence":"0.08",
+    "Model":"RF",
+    "Explanation":"Although rule-based indicators are present (amount exceeds $10,000, structuring pattern detected), the model considers this transaction legitimate with confidence."
+  },
+  {
+    "TransactionID":1538,
+    "Prediction":"Legitimate",
+    "Confidence":"0.07",
+    "Model":"RF",
+    "Explanation":"Although rule-based indicators are present (amount exceeds $10,000, structuring pattern detected), the model considers this transaction legitimate with confidence."
+  },
+  {
+    "TransactionID":1542,
+    "Prediction":"Fraudulent",
+    "Confidence":"0.85",
+    "Model":"RF",
+    "Explanation":"This transaction is considered suspicious because it amount exceeds $10,000, transaction involves a high-risk country, structuring pattern detected."
+  },
+  {
+    "TransactionID":1544,
+    "Prediction":"Legitimate",
+    "Confidence":"0.08",
+    "Model":"RF",
+    "Explanation":"Although rule-based indicators are present (amount exceeds $10,000, structuring pattern detected), the model considers this transaction legitimate with confidence."
+  },
+  {
+    "TransactionID":1545,
+    "Prediction":"Legitimate",
+    "Confidence":"0.26",
+    "Model":"RF",
+    "Explanation":"Although rule-based indicators are present (amount exceeds $10,000, missing declared purpose), the model considers this transaction legitimate with confidence."
+  },
+  {
+    "TransactionID":1547,
+    "Prediction":"Legitimate",
+    "Confidence":"0.10",
+    "Model":"RF",
+    "Explanation":"Although rule-based indicators are present (amount exceeds $10,000, missing declared purpose), the model considers this transaction legitimate with confidence."
+  },
+  {
+    "TransactionID":1551,
+    "Prediction":"Legitimate",
+    "Confidence":"0.03",
+    "Model":"RF",
+    "Explanation":"Although rule-based indicators are present (amount exceeds $10,000), the model considers this transaction legitimate with confidence."
+  },
+  {
+    "TransactionID":1552,
+    "Prediction":"Legitimate",
+    "Confidence":"0.04",
+    "Model":"RF",
+    "Explanation":"Although rule-based indicators are present (amount exceeds $10,000, transaction involves a high-risk country, foreign location), the model considers this transaction legitimate with confidence."
+  },
+  {
+    "TransactionID":1556,
+    "Prediction":"Legitimate",
+    "Confidence":"0.06",
+    "Model":"RF",
+    "Explanation":"Although rule-based indicators are present (amount exceeds $10,000), the model considers this transaction legitimate with confidence."
+  },
+  {
+    "TransactionID":1557,
+    "Prediction":"Legitimate",
+    "Confidence":"0.05",
+    "Model":"RF",
+    "Explanation":"Although rule-based indicators are present (amount exceeds $10,000, structuring pattern detected), the model considers this transaction legitimate with confidence."
+  },
+  {
+    "TransactionID":1563,
+    "Prediction":"Legitimate",
+    "Confidence":"0.08",
+    "Model":"RF",
+    "Explanation":"Although rule-based indicators are present (amount exceeds $10,000), the model considers this transaction legitimate with confidence."
+  },
+  {
+    "TransactionID":1564,
+    "Prediction":"Fraudulent",
+    "Confidence":"0.72",
+    "Model":"RF",
+    "Explanation":"This transaction is considered suspicious because it amount exceeds $10,000."
+  },
+  {
+    "TransactionID":1567,
+    "Prediction":"Legitimate",
+    "Confidence":"0.03",
+    "Model":"RF",
+    "Explanation":"Although rule-based indicators are present (amount exceeds $10,000, transaction involves a high-risk country), the model considers this transaction legitimate with confidence."
+  },
+  {
+    "TransactionID":1568,
+    "Prediction":"Legitimate",
+    "Confidence":"0.11",
+    "Model":"RF",
+    "Explanation":"Although rule-based indicators are present (missing declared purpose, previous suspicious activity reported), the model considers this transaction legitimate with confidence."
+  },
+  {
+    "TransactionID":1569,
+    "Prediction":"Legitimate",
+    "Confidence":"0.10",
+    "Model":"RF",
+    "Explanation":"Although rule-based indicators are present (amount exceeds $10,000, foreign location, missing declared purpose), the model considers this transaction legitimate with confidence."
+  },
+  {
+    "TransactionID":1574,
+    "Prediction":"Legitimate",
+    "Confidence":"0.06",
+    "Model":"RF",
+    "Explanation":"Although rule-based indicators are present (amount exceeds $10,000, missing declared purpose), the model considers this transaction legitimate with confidence."
+  },
+  {
+    "TransactionID":1593,
+    "Prediction":"Legitimate",
+    "Confidence":"0.17",
+    "Model":"RF",
+    "Explanation":"Although rule-based indicators are present (amount exceeds $10,000, structuring pattern detected), the model considers this transaction legitimate with confidence."
+  },
+  {
+    "TransactionID":1594,
+    "Prediction":"Legitimate",
+    "Confidence":"0.12",
+    "Model":"RF",
+    "Explanation":"Although rule-based indicators are present (amount exceeds $10,000, foreign location, structuring pattern detected), the model considers this transaction legitimate with confidence."
+  },
+  {
+    "TransactionID":1601,
+    "Prediction":"Fraudulent",
+    "Confidence":"0.69",
+    "Model":"RF",
+    "Explanation":"This transaction is considered suspicious because it amount exceeds $10,000, foreign location, structuring pattern detected."
+  },
+  {
+    "TransactionID":1606,
+    "Prediction":"Legitimate",
+    "Confidence":"0.17",
+    "Model":"RF",
+    "Explanation":"Although rule-based indicators are present (amount exceeds $10,000, previous suspicious activity reported), the model considers this transaction legitimate with confidence."
+  },
+  {
+    "TransactionID":1609,
+    "Prediction":"Legitimate",
+    "Confidence":"0.07",
+    "Model":"RF",
+    "Explanation":"Although rule-based indicators are present (amount exceeds $10,000, transaction involves a high-risk country), the model considers this transaction legitimate with confidence."
+  },
+  {
+    "TransactionID":1610,
+    "Prediction":"Legitimate",
+    "Confidence":"0.06",
+    "Model":"RF",
+    "Explanation":"Although rule-based indicators are present (amount exceeds $10,000, missing declared purpose), the model considers this transaction legitimate with confidence."
+  },
+  {
+    "TransactionID":1611,
+    "Prediction":"Legitimate",
+    "Confidence":"0.12",
+    "Model":"RF",
+    "Explanation":"Although rule-based indicators are present (amount exceeds $10,000, transaction involves a high-risk country, missing declared purpose, previous suspicious activity reported), the model considers this transaction legitimate with confidence."
+  },
+  {
+    "TransactionID":1613,
+    "Prediction":"Legitimate",
+    "Confidence":"0.05",
+    "Model":"RF",
+    "Explanation":"No risk indicators detected."
+  },
+  {
+    "TransactionID":1616,
+    "Prediction":"Legitimate",
+    "Confidence":"0.15",
+    "Model":"RF",
+    "Explanation":"Although rule-based indicators are present (amount exceeds $10,000, foreign location, previous suspicious activity reported), the model considers this transaction legitimate with confidence."
+  },
+  {
+    "TransactionID":1619,
+    "Prediction":"Fraudulent",
+    "Confidence":"0.75",
+    "Model":"RF",
+    "Explanation":"This transaction is considered suspicious because it amount exceeds $10,000, transaction involves a high-risk country."
+  },
+  {
+    "TransactionID":1622,
+    "Prediction":"Legitimate",
+    "Confidence":"0.12",
+    "Model":"RF",
+    "Explanation":"Although rule-based indicators are present (amount exceeds $10,000, previous suspicious activity reported), the model considers this transaction legitimate with confidence."
+  },
+  {
+    "TransactionID":1624,
+    "Prediction":"Legitimate",
+    "Confidence":"0.08",
+    "Model":"RF",
+    "Explanation":"Although rule-based indicators are present (amount exceeds $10,000, previous suspicious activity reported), the model considers this transaction legitimate with confidence."
+  },
+  {
+    "TransactionID":1625,
+    "Prediction":"Legitimate",
+    "Confidence":"0.02",
+    "Model":"RF",
+    "Explanation":"Although rule-based indicators are present (amount exceeds $10,000, foreign location), the model considers this transaction legitimate with confidence."
+  },
+  {
+    "TransactionID":1641,
+    "Prediction":"Legitimate",
+    "Confidence":"0.02",
+    "Model":"RF",
+    "Explanation":"Although rule-based indicators are present (amount exceeds $10,000, transaction involves a high-risk country, previous suspicious activity reported), the model considers this transaction legitimate with confidence."
+  },
+  {
+    "TransactionID":1647,
+    "Prediction":"Legitimate",
+    "Confidence":"0.09",
+    "Model":"RF",
+    "Explanation":"Although rule-based indicators are present (amount exceeds $10,000, transaction involves a high-risk country, missing declared purpose), the model considers this transaction legitimate with confidence."
+  },
+  {
+    "TransactionID":1648,
+    "Prediction":"Legitimate",
+    "Confidence":"0.22",
+    "Model":"RF",
+    "Explanation":"Although rule-based indicators are present (amount exceeds $10,000, transaction involves a high-risk country), the model considers this transaction legitimate with confidence."
+  },
+  {
+    "TransactionID":1653,
+    "Prediction":"Legitimate",
+    "Confidence":"0.03",
+    "Model":"RF",
+    "Explanation":"Although rule-based indicators are present (amount exceeds $10,000, foreign location, missing declared purpose, structuring pattern detected), the model considers this transaction legitimate with confidence."
+  },
+  {
+    "TransactionID":1655,
+    "Prediction":"Legitimate",
+    "Confidence":"0.18",
+    "Model":"RF",
+    "Explanation":"Although rule-based indicators are present (amount exceeds $10,000), the model considers this transaction legitimate with confidence."
+  },
+  {
+    "TransactionID":1659,
+    "Prediction":"Legitimate",
+    "Confidence":"0.06",
+    "Model":"RF",
+    "Explanation":"Although rule-based indicators are present (amount exceeds $10,000, missing declared purpose, previous suspicious activity reported), the model considers this transaction legitimate with confidence."
+  },
+  {
+    "TransactionID":1660,
+    "Prediction":"Legitimate",
+    "Confidence":"0.15",
+    "Model":"RF",
+    "Explanation":"Although rule-based indicators are present (amount exceeds $10,000, transaction involves a high-risk country), the model considers this transaction legitimate with confidence."
+  },
+  {
+    "TransactionID":1665,
+    "Prediction":"Legitimate",
+    "Confidence":"0.10",
+    "Model":"RF",
+    "Explanation":"Although rule-based indicators are present (amount exceeds $10,000, missing declared purpose), the model considers this transaction legitimate with confidence."
+  },
+  {
+    "TransactionID":1667,
+    "Prediction":"Legitimate",
+    "Confidence":"0.07",
+    "Model":"RF",
+    "Explanation":"Although rule-based indicators are present (amount exceeds $10,000, missing declared purpose, previous suspicious activity reported), the model considers this transaction legitimate with confidence."
+  },
+  {
+    "TransactionID":1674,
+    "Prediction":"Legitimate",
+    "Confidence":"0.07",
+    "Model":"RF",
+    "Explanation":"Although rule-based indicators are present (amount exceeds $10,000), the model considers this transaction legitimate with confidence."
+  },
+  {
+    "TransactionID":1675,
+    "Prediction":"Legitimate",
+    "Confidence":"0.13",
+    "Model":"RF",
+    "Explanation":"Although rule-based indicators are present (foreign location, missing declared purpose, structuring pattern detected), the model considers this transaction legitimate with confidence."
+  },
+  {
+    "TransactionID":1676,
+    "Prediction":"Legitimate",
+    "Confidence":"0.09",
+    "Model":"RF",
+    "Explanation":"Although rule-based indicators are present (amount exceeds $10,000), the model considers this transaction legitimate with confidence."
+  },
+  {
+    "TransactionID":1687,
+    "Prediction":"Legitimate",
+    "Confidence":"0.08",
+    "Model":"RF",
+    "Explanation":"Although rule-based indicators are present (amount exceeds $10,000, transaction involves a high-risk country, foreign location, missing declared purpose), the model considers this transaction legitimate with confidence."
+  },
+  {
+    "TransactionID":1692,
+    "Prediction":"Legitimate",
+    "Confidence":"0.14",
+    "Model":"RF",
+    "Explanation":"Although rule-based indicators are present (amount exceeds $10,000, transaction involves a high-risk country, missing declared purpose), the model considers this transaction legitimate with confidence."
+  },
+  {
+    "TransactionID":1697,
+    "Prediction":"Legitimate",
+    "Confidence":"0.10",
+    "Model":"RF",
+    "Explanation":"Although rule-based indicators are present (amount exceeds $10,000, foreign location, structuring pattern detected), the model considers this transaction legitimate with confidence."
+  },
+  {
+    "TransactionID":1698,
+    "Prediction":"Legitimate",
+    "Confidence":"0.08",
+    "Model":"RF",
+    "Explanation":"Although rule-based indicators are present (amount exceeds $10,000, transaction involves a high-risk country), the model considers this transaction legitimate with confidence."
+  },
+  {
+    "TransactionID":1700,
+    "Prediction":"Legitimate",
+    "Confidence":"0.04",
+    "Model":"RF",
+    "Explanation":"Although rule-based indicators are present (amount exceeds $10,000, structuring pattern detected), the model considers this transaction legitimate with confidence."
+  },
+  {
+    "TransactionID":1711,
+    "Prediction":"Legitimate",
+    "Confidence":"0.27",
+    "Model":"RF",
+    "Explanation":"Although rule-based indicators are present (amount exceeds $10,000, previous suspicious activity reported), the model considers this transaction legitimate with confidence."
+  },
+  {
+    "TransactionID":1714,
+    "Prediction":"Fraudulent",
+    "Confidence":"0.77",
+    "Model":"RF",
+    "Explanation":"This transaction is considered suspicious because it amount exceeds $10,000, transaction involves a high-risk country, structuring pattern detected."
+  },
+  {
+    "TransactionID":1720,
+    "Prediction":"Legitimate",
+    "Confidence":"0.09",
+    "Model":"RF",
+    "Explanation":"Although rule-based indicators are present (amount exceeds $10,000), the model considers this transaction legitimate with confidence."
+  },
+  {
+    "TransactionID":1729,
+    "Prediction":"Legitimate",
+    "Confidence":"0.08",
+    "Model":"RF",
+    "Explanation":"Although rule-based indicators are present (amount exceeds $10,000, transaction involves a high-risk country), the model considers this transaction legitimate with confidence."
+  },
+  {
+    "TransactionID":1730,
+    "Prediction":"Fraudulent",
+    "Confidence":"0.85",
+    "Model":"RF",
+    "Explanation":"This transaction is considered suspicious because it amount exceeds $10,000, structuring pattern detected."
+  },
+  {
+    "TransactionID":1732,
+    "Prediction":"Legitimate",
+    "Confidence":"0.06",
+    "Model":"RF",
+    "Explanation":"Although rule-based indicators are present (amount exceeds $10,000, structuring pattern detected), the model considers this transaction legitimate with confidence."
+  },
+  {
+    "TransactionID":1737,
+    "Prediction":"Fraudulent",
+    "Confidence":"0.73",
+    "Model":"RF",
+    "Explanation":"This transaction is considered suspicious because it amount exceeds $10,000."
+  },
+  {
+    "TransactionID":1738,
+    "Prediction":"Legitimate",
+    "Confidence":"0.13",
+    "Model":"RF",
+    "Explanation":"Although rule-based indicators are present (amount exceeds $10,000), the model considers this transaction legitimate with confidence."
+  },
+  {
+    "TransactionID":1740,
+    "Prediction":"Fraudulent",
+    "Confidence":"0.71",
+    "Model":"RF",
+    "Explanation":"This transaction is considered suspicious because it amount exceeds $10,000, foreign location, missing declared purpose."
+  },
+  {
+    "TransactionID":1742,
+    "Prediction":"Legitimate",
+    "Confidence":"0.10",
+    "Model":"RF",
+    "Explanation":"Although rule-based indicators are present (amount exceeds $10,000), the model considers this transaction legitimate with confidence."
+  },
+  {
+    "TransactionID":1746,
+    "Prediction":"Legitimate",
+    "Confidence":"0.04",
+    "Model":"RF",
+    "Explanation":"Although rule-based indicators are present (transaction involves a high-risk country, structuring pattern detected), the model considers this transaction legitimate with confidence."
+  },
+  {
+    "TransactionID":1755,
+    "Prediction":"Legitimate",
+    "Confidence":"0.01",
+    "Model":"RF",
+    "Explanation":"Although rule-based indicators are present (amount exceeds $10,000, transaction involves a high-risk country, missing declared purpose, previous suspicious activity reported), the model considers this transaction legitimate with confidence."
+  },
+  {
+    "TransactionID":1757,
+    "Prediction":"Legitimate",
+    "Confidence":"0.13",
+    "Model":"RF",
+    "Explanation":"Although rule-based indicators are present (amount exceeds $10,000), the model considers this transaction legitimate with confidence."
+  },
+  {
+    "TransactionID":1767,
+    "Prediction":"Legitimate",
+    "Confidence":"0.06",
+    "Model":"RF",
+    "Explanation":"Although rule-based indicators are present (amount exceeds $10,000, transaction involves a high-risk country, structuring pattern detected), the model considers this transaction legitimate with confidence."
+  },
+  {
+    "TransactionID":1768,
+    "Prediction":"Legitimate",
+    "Confidence":"0.19",
+    "Model":"RF",
+    "Explanation":"Although rule-based indicators are present (amount exceeds $10,000, foreign location, missing declared purpose, structuring pattern detected), the model considers this transaction legitimate with confidence."
+  },
+  {
+    "TransactionID":1783,
+    "Prediction":"Legitimate",
+    "Confidence":"0.05",
+    "Model":"RF",
+    "Explanation":"Although rule-based indicators are present (foreign location, missing declared purpose), the model considers this transaction legitimate with confidence."
+  },
+  {
+    "TransactionID":1785,
+    "Prediction":"Legitimate",
+    "Confidence":"0.17",
+    "Model":"RF",
+    "Explanation":"Although rule-based indicators are present (amount exceeds $10,000, transaction involves a high-risk country, missing declared purpose, structuring pattern detected), the model considers this transaction legitimate with confidence."
+  },
+  {
+    "TransactionID":1790,
+    "Prediction":"Legitimate",
+    "Confidence":"0.09",
+    "Model":"RF",
+    "Explanation":"Although rule-based indicators are present (amount exceeds $10,000, transaction involves a high-risk country, missing declared purpose), the model considers this transaction legitimate with confidence."
+  },
+  {
+    "TransactionID":1795,
+    "Prediction":"Legitimate",
+    "Confidence":"0.16",
+    "Model":"RF",
+    "Explanation":"Although rule-based indicators are present (amount exceeds $10,000), the model considers this transaction legitimate with confidence."
+  },
+  {
+    "TransactionID":1799,
+    "Prediction":"Fraudulent",
+    "Confidence":"0.98",
+    "Model":"RF",
+    "Explanation":"This transaction is considered suspicious because it amount exceeds $10,000, structuring pattern detected."
+  },
+  {
+    "TransactionID":1804,
+    "Prediction":"Legitimate",
+    "Confidence":"0.02",
+    "Model":"RF",
+    "Explanation":"Although rule-based indicators are present (amount exceeds $10,000, transaction involves a high-risk country), the model considers this transaction legitimate with confidence."
+  },
+  {
+    "TransactionID":1811,
+    "Prediction":"Legitimate",
+    "Confidence":"0.04",
+    "Model":"RF",
+    "Explanation":"Although rule-based indicators are present (amount exceeds $10,000, transaction involves a high-risk country, foreign location, structuring pattern detected), the model considers this transaction legitimate with confidence."
+  },
+  {
+    "TransactionID":1814,
+    "Prediction":"Legitimate",
+    "Confidence":"0.05",
+    "Model":"RF",
+    "Explanation":"Although rule-based indicators are present (amount exceeds $10,000), the model considers this transaction legitimate with confidence."
+  },
+  {
+    "TransactionID":1815,
+    "Prediction":"Legitimate",
+    "Confidence":"0.10",
+    "Model":"RF",
+    "Explanation":"Although rule-based indicators are present (amount exceeds $10,000, transaction involves a high-risk country, structuring pattern detected), the model considers this transaction legitimate with confidence."
+  },
+  {
+    "TransactionID":1819,
+    "Prediction":"Fraudulent",
+    "Confidence":"0.82",
+    "Model":"RF",
+    "Explanation":"This transaction is considered suspicious because it amount exceeds $10,000, transaction involves a high-risk country, previous suspicious activity reported."
+  },
+  {
+    "TransactionID":1820,
+    "Prediction":"Fraudulent",
+    "Confidence":"0.33",
+    "Model":"RF",
+    "Explanation":"This transaction is considered suspicious because it amount exceeds $10,000."
+  },
+  {
+    "TransactionID":1826,
+    "Prediction":"Legitimate",
+    "Confidence":"0.13",
+    "Model":"RF",
+    "Explanation":"Although rule-based indicators are present (amount exceeds $10,000, structuring pattern detected), the model considers this transaction legitimate with confidence."
+  },
+  {
+    "TransactionID":1832,
+    "Prediction":"Legitimate",
+    "Confidence":"0.26",
+    "Model":"RF",
+    "Explanation":"Although rule-based indicators are present (amount exceeds $10,000, transaction involves a high-risk country, structuring pattern detected), the model considers this transaction legitimate with confidence."
+  },
+  {
+    "TransactionID":1834,
+    "Prediction":"Legitimate",
+    "Confidence":"0.11",
+    "Model":"RF",
+    "Explanation":"Although rule-based indicators are present (amount exceeds $10,000, transaction involves a high-risk country, foreign location), the model considers this transaction legitimate with confidence."
+  },
+  {
+    "TransactionID":1839,
+    "Prediction":"Legitimate",
+    "Confidence":"0.13",
+    "Model":"RF",
+    "Explanation":"Although rule-based indicators are present (amount exceeds $10,000, missing declared purpose), the model considers this transaction legitimate with confidence."
+  },
+  {
+    "TransactionID":1848,
+    "Prediction":"Fraudulent",
+    "Confidence":"0.68",
+    "Model":"RF",
+    "Explanation":"This transaction is considered suspicious because it amount exceeds $10,000."
+  },
+  {
+    "TransactionID":1853,
+    "Prediction":"Legitimate",
+    "Confidence":"0.03",
+    "Model":"RF",
+    "Explanation":"Although rule-based indicators are present (amount exceeds $10,000, structuring pattern detected), the model considers this transaction legitimate with confidence."
+  },
+  {
+    "TransactionID":1861,
+    "Prediction":"Legitimate",
+    "Confidence":"0.08",
+    "Model":"RF",
+    "Explanation":"Although rule-based indicators are present (amount exceeds $10,000), the model considers this transaction legitimate with confidence."
+  },
+  {
+    "TransactionID":1873,
+    "Prediction":"Legitimate",
+    "Confidence":"0.09",
+    "Model":"RF",
+    "Explanation":"Although rule-based indicators are present (amount exceeds $10,000, missing declared purpose, previous suspicious activity reported, structuring pattern detected), the model considers this transaction legitimate with confidence."
+  },
+  {
+    "TransactionID":1874,
+    "Prediction":"Legitimate",
+    "Confidence":"0.04",
+    "Model":"RF",
+    "Explanation":"Although rule-based indicators are present (amount exceeds $10,000), the model considers this transaction legitimate with confidence."
+  },
+  {
+    "TransactionID":1885,
+    "Prediction":"Fraudulent",
+    "Confidence":"0.89",
+    "Model":"RF",
+    "Explanation":"This transaction is considered suspicious because it amount exceeds $10,000, structuring pattern detected."
+  },
+  {
+    "TransactionID":1894,
+    "Prediction":"Legitimate",
+    "Confidence":"0.04",
+    "Model":"RF",
+    "Explanation":"Although rule-based indicators are present (amount exceeds $10,000), the model considers this transaction legitimate with confidence."
+  },
+  {
+    "TransactionID":1898,
+    "Prediction":"Legitimate",
+    "Confidence":"0.23",
+    "Model":"RF",
+    "Explanation":"Although rule-based indicators are present (amount exceeds $10,000, structuring pattern detected), the model considers this transaction legitimate with confidence."
+  },
+  {
+    "TransactionID":1904,
+    "Prediction":"Legitimate",
+    "Confidence":"0.10",
+    "Model":"RF",
+    "Explanation":"Although rule-based indicators are present (amount exceeds $10,000, transaction involves a high-risk country), the model considers this transaction legitimate with confidence."
+  },
+  {
+    "TransactionID":1906,
+    "Prediction":"Legitimate",
+    "Confidence":"0.11",
+    "Model":"RF",
+    "Explanation":"Although rule-based indicators are present (amount exceeds $10,000, transaction involves a high-risk country), the model considers this transaction legitimate with confidence."
+  },
+  {
+    "TransactionID":1912,
+    "Prediction":"Legitimate",
+    "Confidence":"0.06",
+    "Model":"RF",
+    "Explanation":"Although rule-based indicators are present (amount exceeds $10,000), the model considers this transaction legitimate with confidence."
+  },
+  {
+    "TransactionID":1913,
+    "Prediction":"Legitimate",
+    "Confidence":"0.04",
+    "Model":"RF",
+    "Explanation":"Although rule-based indicators are present (amount exceeds $10,000, foreign location, previous suspicious activity reported), the model considers this transaction legitimate with confidence."
+  },
+  {
+    "TransactionID":1917,
+    "Prediction":"Legitimate",
+    "Confidence":"0.05",
+    "Model":"RF",
+    "Explanation":"Although rule-based indicators are present (amount exceeds $10,000, structuring pattern detected), the model considers this transaction legitimate with confidence."
+  },
+  {
+    "TransactionID":1920,
+    "Prediction":"Fraudulent",
+    "Confidence":"0.56",
+    "Model":"RF",
+    "Explanation":"This transaction is considered suspicious because it amount exceeds $10,000, transaction involves a high-risk country."
+  },
+  {
+    "TransactionID":1923,
+    "Prediction":"Legitimate",
+    "Confidence":"0.08",
+    "Model":"RF",
+    "Explanation":"Although rule-based indicators are present (amount exceeds $10,000), the model considers this transaction legitimate with confidence."
+  },
+  {
+    "TransactionID":1925,
+    "Prediction":"Legitimate",
+    "Confidence":"0.03",
+    "Model":"RF",
+    "Explanation":"Although rule-based indicators are present (amount exceeds $10,000, transaction involves a high-risk country, missing declared purpose), the model considers this transaction legitimate with confidence."
+  },
+  {
+    "TransactionID":1928,
+    "Prediction":"Legitimate",
+    "Confidence":"0.07",
+    "Model":"RF",
+    "Explanation":"Although rule-based indicators are present (amount exceeds $10,000), the model considers this transaction legitimate with confidence."
+  },
+  {
+    "TransactionID":1931,
+    "Prediction":"Legitimate",
+    "Confidence":"0.04",
+    "Model":"RF",
+    "Explanation":"Although rule-based indicators are present (amount exceeds $10,000, structuring pattern detected), the model considers this transaction legitimate with confidence."
+  },
+  {
+    "TransactionID":1932,
+    "Prediction":"Fraudulent",
+    "Confidence":"0.96",
+    "Model":"RF",
+    "Explanation":"This transaction is considered suspicious because it amount exceeds $10,000, missing declared purpose."
+  },
+  {
+    "TransactionID":1933,
+    "Prediction":"Legitimate",
+    "Confidence":"0.11",
+    "Model":"RF",
+    "Explanation":"Although rule-based indicators are present (amount exceeds $10,000, structuring pattern detected), the model considers this transaction legitimate with confidence."
+  },
+  {
+    "TransactionID":1935,
+    "Prediction":"Legitimate",
+    "Confidence":"0.02",
+    "Model":"RF",
+    "Explanation":"Although rule-based indicators are present (amount exceeds $10,000), the model considers this transaction legitimate with confidence."
+  },
+  {
+    "TransactionID":1938,
+    "Prediction":"Legitimate",
+    "Confidence":"0.05",
+    "Model":"RF",
+    "Explanation":"Although rule-based indicators are present (amount exceeds $10,000), the model considers this transaction legitimate with confidence."
+  },
+  {
+    "TransactionID":1939,
+    "Prediction":"Legitimate",
+    "Confidence":"0.06",
+    "Model":"RF",
+    "Explanation":"Although rule-based indicators are present (amount exceeds $10,000, structuring pattern detected), the model considers this transaction legitimate with confidence."
+  },
+  {
+    "TransactionID":1951,
+    "Prediction":"Legitimate",
+    "Confidence":"0.15",
+    "Model":"RF",
+    "Explanation":"Although rule-based indicators are present (amount exceeds $10,000), the model considers this transaction legitimate with confidence."
+  },
+  {
+    "TransactionID":1960,
+    "Prediction":"Legitimate",
+    "Confidence":"0.07",
+    "Model":"RF",
+    "Explanation":"Although rule-based indicators are present (amount exceeds $10,000), the model considers this transaction legitimate with confidence."
+  },
+  {
+    "TransactionID":1963,
+    "Prediction":"Legitimate",
+    "Confidence":"0.00",
+    "Model":"RF",
+    "Explanation":"Although rule-based indicators are present (amount exceeds $10,000), the model considers this transaction legitimate with confidence."
+  },
+  {
+    "TransactionID":1966,
+    "Prediction":"Legitimate",
+    "Confidence":"0.18",
+    "Model":"RF",
+    "Explanation":"Although rule-based indicators are present (amount exceeds $10,000, foreign location, previous suspicious activity reported), the model considers this transaction legitimate with confidence."
+  },
+  {
+    "TransactionID":1967,
+    "Prediction":"Legitimate",
+    "Confidence":"0.02",
+    "Model":"RF",
+    "Explanation":"Although rule-based indicators are present (amount exceeds $10,000, missing declared purpose), the model considers this transaction legitimate with confidence."
+  },
+  {
+    "TransactionID":1979,
+    "Prediction":"Legitimate",
+    "Confidence":"0.08",
+    "Model":"RF",
+    "Explanation":"Although rule-based indicators are present (previous suspicious activity reported), the model considers this transaction legitimate with confidence."
+  },
+  {
+    "TransactionID":1982,
+    "Prediction":"Fraudulent",
+    "Confidence":"0.76",
+    "Model":"RF",
+    "Explanation":"This transaction is considered suspicious because it amount exceeds $10,000, missing declared purpose."
+  },
+  {
+    "TransactionID":1988,
+    "Prediction":"Fraudulent",
+    "Confidence":"0.67",
+    "Model":"RF",
+    "Explanation":"This transaction is considered suspicious because it amount exceeds $10,000."
+  },
+  {
+    "TransactionID":1991,
+    "Prediction":"Legitimate",
+    "Confidence":"0.11",
+    "Model":"RF",
+    "Explanation":"Although rule-based indicators are present (amount exceeds $10,000, transaction involves a high-risk country), the model considers this transaction legitimate with confidence."
+  }
+]
