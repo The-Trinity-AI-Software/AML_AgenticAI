@@ -32,7 +32,7 @@ def rule_check_node(state: AMLState) -> AMLState:
 def model_predict_node(state: AMLState, best_model, best_model_name) -> AMLState:
     tx = state["transaction"]
     prob = best_model.predict_proba(tx.values.reshape(1, -1))[0][1]
-    label = "Fraudulent" if prob > 0.3 else "Legitimate"
+    label = "Suspecious" if prob > 0.3 else "Non-suspicious"
 
     rules = state["rule_flag"].split(", ") if state["rule_flag"] != "No rule triggers" else []
     reasons = []
@@ -43,10 +43,10 @@ def model_predict_node(state: AMLState, best_model, best_model_name) -> AMLState
     if "Prior SAR exists" in rules: reasons.append("previous suspicious activity reported")
     if "Possible structuring" in rules: reasons.append("structuring pattern detected")
 
-    if label == "Fraudulent":
+    if label == "Suspicious":
         explanation = "This transaction is considered suspicious because it " + ", ".join(reasons) + "." if reasons else "Flagged by model due to risk score."
     else:
-        explanation = "Although rule-based indicators are present (" + ", ".join(reasons) + "), the model considers this transaction legitimate with confidence." if reasons else "No risk indicators detected."
+        explanation = "Although rule-based indicators are present (" + ", ".join(reasons) + "), the model considers this transaction non suspicious with confidence." if reasons else "No risk indicators detected."
 
     state["prediction"] = label
     state["best_model"] = best_model_name
