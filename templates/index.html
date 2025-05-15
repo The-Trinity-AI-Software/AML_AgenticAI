@@ -1,124 +1,100 @@
-
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>AML Fraud Detection - Flask + LangGraph</title>
+    <meta charset="UTF-8">
+    <title>AML Prediction Dashboard</title>
     <style>
         body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            margin: 40px;
-            background-color: #f9f9f9;
-            color: #2c3e50;
+            font-family: Arial, sans-serif;
+            background: #f0f2f5;
+            padding: 30px;
         }
-        h1, h2 {
-            color: #1a5276;
-        }
-        .info-section {
-            background-color: #eaf2f8;
-            padding: 20px;
+        .container {
+            max-width: 900px;
+            margin: auto;
+            background: white;
+            padding: 30px;
             border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        h2 {
+            text-align: center;
+            color: #333;
+        }
+        form {
+            margin-top: 30px;
             margin-bottom: 30px;
-            box-shadow: 0 0 10px rgba(0,0,0,0.05);
         }
-        .info-section p {
-            line-height: 1.7;
-        }
-        .upload-section {
-            margin-bottom: 30px;
-            background-color: #ffffff;
-            padding: 20px;
-            border-radius: 10px;
-            box-shadow: 0 0 10px rgba(0,0,0,0.08);
-        }
-        .form-group {
-            margin-bottom: 15px;
-        }
-        .table-container {
-            max-height: 500px;
-            overflow-y: auto;
-            margin-top: 20px;
-            border: 1px solid #ccc;
-            padding: 10px;
-            background-color: white;
-            border-radius: 8px;
-        }
-        .table {
+        input[type="file"] {
+            margin: 10px 0;
             width: 100%;
-            border-collapse: collapse;
         }
-        .table th, .table td {
-            border: 1px solid #ddd;
-            padding: 8px;
-        }
-        .table th {
-            background-color: #d6eaf8;
-            position: sticky;
-            top: 0;
-        }
-        .btn {
-            padding: 10px 20px;
-            background-color: #2e86c1;
+        button {
+            background-color: #007BFF;
             color: white;
-            text-decoration: none;
+            padding: 12px 20px;
             border: none;
-            border-radius: 5px;
-            margin-right: 10px;
+            border-radius: 6px;
             cursor: pointer;
-            font-weight: bold;
+            margin-top: 10px;
         }
-        .btn:hover {
-            background-color: #1b4f72;
+        button:hover {
+            background-color: #0056b3;
         }
         .btn-secondary {
-            background-color: #48c9b0;
+            background-color: #6c757d;
         }
-        .btn-secondary:hover {
-            background-color: #117a65;
+        .download-links {
+            margin-top: 20px;
+            display: flex;
+            justify-content: space-between;
+        }
+        table {
+            width: 100%;
+            margin-top: 30px;
+            border-collapse: collapse;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 12px;
+            text-align: left;
+        }
+        th {
+            background-color: #007BFF;
+            color: white;
+        }
+        .center {
+            text-align: center;
         }
     </style>
 </head>
 <body>
-    <h1>🛡️ AML Fraud Detection System (Agentic AI + LangGraph)</h1>
+    <div class="container">
+        <h2>🚨 AML Suspicious Transaction Predictor</h2>
 
-    <div class="info-section">
-        <h2>💡 What is Anti Money Laundering (AML)?</h2>
-        <p>
-            Anti Money Laundering (AML) refers to laws, regulations, and technologies that financial institutions use to detect and prevent illicit money flows. This includes identifying unusual patterns in transactions, especially those involving large transfers, foreign accounts, or high-risk geographies.
-        </p>
-        <p>
-            This project leverages an <strong>Agentic AI framework</strong> using <strong>LangGraph</strong> to build an explainable fraud detection pipeline. Each transaction passes through a multi-node LangGraph workflow combining:
-            <ul>
-                <li>✅ Rule-based checks for known red flags</li>
-                <li>✅ ML-based fraud scoring using XGBoost, Random Forest, and Logistic Regression</li>
-                <li>✅ Explanation generation based on both rules and model reasoning</li>
-            </ul>
-        </p>
-    </div>
+        <form method="POST" action="/predict" enctype="multipart/form-data">
+            <label>Select Training CSV File:</label>
+            <input type="file" name="train_file" accept=".csv" required>
 
-    <div class="upload-section">
-        <form action="/predict" method="POST" enctype="multipart/form-data">
-            <div class="form-group">
-                <strong>Step 1:</strong> Upload Training File (from <code>uploads/Train/</code>):<br>
-                <input type="file" name="train_file" required>
+            <label>Select Test CSV File:</label>
+            <input type="file" name="test_file" accept=".csv" required>
+
+            <div class="center">
+                <button type="submit">🔍 Submit</button>
+                <button type="button" class="btn-secondary" onclick="window.location.href='/'">🔁 Reset</button>
             </div>
-
-            <div class="form-group">
-                <strong>Step 2:</strong> Upload Test File (from <code>uploads/Test/</code>):<br>
-                <input type="file" name="test_file" required>
-            </div>
-
-            <input class="btn" type="submit" value="🚀 Run Prediction">
         </form>
-    </div>
 
-    {% if show_results %}
-        <h2>📊 Top 15 Prediction Results</h2>
-        <div class="table-container">
-            {{ table|safe }}
-        </div>
-        <br/>
-        <a class="btn btn-secondary" href="/download/excel">⬇️ Download Excel</a>
-        <a class="btn btn-secondary" href="/download/json">⬇️ Download JSON</a>
-    {% endif %}
+        {% if show_results %}
+            <h3 class="center">📊 Prediction Results</h3>
+            <div class="download-links">
+                <a href="/download/json"><button>⬇️ Download JSON</button></a>
+                <a href="/download/excel"><button>⬇️ Download Excel</button></a>
+            </div>
+            <div>
+                {{ table|safe }}
+            </div>
+        {% endif %}
+    </div>
 </body>
 </html>
