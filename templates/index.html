@@ -1,100 +1,158 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>AML Prediction Dashboard</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background: #f0f2f5;
-            padding: 30px;
-        }
-        .container {
-            max-width: 900px;
-            margin: auto;
-            background: white;
-            padding: 30px;
-            border-radius: 10px;
-            box-shadow: 0 0 10px rgba(0,0,0,0.1);
-        }
-        h2 {
-            text-align: center;
-            color: #333;
-        }
-        form {
-            margin-top: 30px;
-            margin-bottom: 30px;
-        }
-        input[type="file"] {
-            margin: 10px 0;
-            width: 100%;
-        }
-        button {
-            background-color: #007BFF;
-            color: white;
-            padding: 12px 20px;
-            border: none;
-            border-radius: 6px;
-            cursor: pointer;
-            margin-top: 10px;
-        }
-        button:hover {
-            background-color: #0056b3;
-        }
-        .btn-secondary {
-            background-color: #6c757d;
-        }
-        .download-links {
-            margin-top: 20px;
-            display: flex;
-            justify-content: space-between;
-        }
-        table {
-            width: 100%;
-            margin-top: 30px;
-            border-collapse: collapse;
-        }
-        th, td {
-            border: 1px solid #ddd;
-            padding: 12px;
-            text-align: left;
-        }
-        th {
-            background-color: #007BFF;
-            color: white;
-        }
-        .center {
-            text-align: center;
-        }
-    </style>
+  <meta charset="UTF-8" />
+  <title>Anti Money Laundering Solution</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: #f0f2f5;
+      padding: 30px;
+    }
+    .container {
+      max-width: 1000px;
+      margin: auto;
+      background: white;
+      padding: 30px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    h2, h3 {
+      text-align: center;
+      color: #333;
+    }
+    .rules-box {
+      background-color: #e9f7ef;
+      border-left: 5px solid #2ecc71;
+      padding: 20px;
+      margin-bottom: 30px;
+      border-radius: 8px;
+    }
+    .rules-box ul {
+      margin: 0;
+      padding-left: 20px;
+    }
+    label {
+      font-weight: bold;
+      margin-top: 15px;
+      display: block;
+    }
+    input[type="file"] {
+      margin: 10px 0;
+      width: 100%;
+    }
+    button {
+      background-color: #007BFF;
+      color: white;
+      padding: 12px 20px;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+      margin-top: 10px;
+    }
+    button:hover {
+      background-color: #0056b3;
+    }
+    .btn-secondary {
+      background-color: #6c757d;
+    }
+    .download-links {
+      margin-top: 20px;
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+    }
+    table {
+      width: 100%;
+      margin-top: 30px;
+      border-collapse: collapse;
+    }
+    th, td {
+      border: 1px solid #ddd;
+      padding: 12px;
+      text-align: left;
+    }
+    th {
+      background-color: #007BFF;
+      color: white;
+    }
+    .center {
+      text-align: center;
+    }
+    .status-message {
+      margin-top: 5px;
+      color: #444;
+      font-style: italic;
+      font-size: 14px;
+    }
+    .bottom-reset {
+      margin-top: 40px;
+      text-align: center;
+    }
+  </style>
 </head>
 <body>
-    <div class="container">
-        <h2>🚨 AML Suspicious Transaction Predictor</h2>
+  <div class="container">
+    <h2>🚨 Anti Money Laundering Solution</h2>
 
-        <form method="POST" action="/predict" enctype="multipart/form-data">
-            <label>Select Training CSV File:</label>
-            <input type="file" name="train_file" accept=".csv" required>
-
-            <label>Select Test CSV File:</label>
-            <input type="file" name="test_file" accept=".csv" required>
-
-            <div class="center">
-                <button type="submit">🔍 Submit</button>
-                <button type="button" class="btn-secondary" onclick="window.location.href='/'">🔁 Reset</button>
-            </div>
-        </form>
-
-        {% if show_results %}
-            <h3 class="center">📊 Prediction Results</h3>
-            <div class="download-links">
-                <a href="/download/json"><button>⬇️ Download JSON</button></a>
-                <a href="/download/excel"><button>⬇️ Download Excel</button></a>
-            </div>
-            <div>
-                {{ table|safe }}
-            </div>
-        {% endif %}
+    <div class="rules-box">
+      <h3>🧠 Sample Scenarios Handled by our AML Solution</h3>
+      <ul>
+        <li><strong>High-value Transactions:</strong> Amounts exceeding $10,000 are flagged.</li>
+        <li><strong>High-risk Countries:</strong> Country risk rating 8 or above triggers alert.</li>
+        <li><strong>Foreign Transactions:</strong> Transactions made outside the country are scrutinized.</li>
+        <li><strong>Unknown Purpose:</strong> Lack of clear purpose for a transaction is considered suspicious.</li>
+        <li><strong>Structuring Patterns:</strong> Frequent small transactions may indicate money laundering.</li>
+        <li><strong>Prior SAR History:</strong> If the customer has previously been flagged, higher scrutiny is applied.</li>
+      </ul>
+      <p>⚙️ Model predictions and rule-based indicators are combined to classify each transaction.</p>
     </div>
+
+    <form id="uploadForm" method="POST" action="/predict" enctype="multipart/form-data">
+      <label>Upload Training Data:</label>
+      <input type="file" name="train_file" id="trainFile" accept=".csv" required>
+      <div id="trainStatus" class="status-message"></div>
+
+      <label>Upload Predict Data:</label>
+      <input type="file" name="test_file" id="testFile" accept=".csv" required>
+      <div id="testStatus" class="status-message"></div>
+
+      <div class="center">
+        <button type="submit" id="submitBtn">🔍 Submit</button>
+      </div>
+      <div id="predictStatus" class="status-message center"></div>
+    </form>
+
+    {% if show_results %}
+      <h3 class="center">📊 Prediction Results</h3>
+
+      <div class="download-links">
+        <a href="/download/json"><button type="button">⬇️ Download JSON</button></a>
+        <a href="/download/excel"><button type="button">⬇️ Download Excel</button></a>
+      </div>
+
+      <div>
+        {{ table|safe }}
+      </div>
+    {% endif %}
+
+    <div class="bottom-reset">
+      <button type="button" class="btn-secondary" onclick="window.location.href='/'">🔁 Reset</button>
+    </div>
+  </div>
+
+  <script>
+    document.getElementById('trainFile').addEventListener('change', function () {
+      document.getElementById('trainStatus').innerHTML = '⏳ Training data uploading... ✅ Uploaded';
+    });
+
+    document.getElementById('testFile').addEventListener('change', function () {
+      document.getElementById('testStatus').innerHTML = '📂 Trail data loading... ✅ Loaded';
+    });
+
+    document.getElementById('uploadForm').addEventListener('submit', function () {
+      document.getElementById('predictStatus').innerHTML = '🔍 Predicting results...';
+    });
+  </script>
 </body>
 </html>
