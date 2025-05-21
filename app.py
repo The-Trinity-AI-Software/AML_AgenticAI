@@ -1,8 +1,3 @@
-
-
-
-
-
 import os
 import pandas as pd
 from flask import Flask, request, render_template, send_from_directory, jsonify
@@ -81,4 +76,5 @@ def download_excel():
     return send_from_directory(path, "predictions.xlsx", as_attachment=True)
 
 if __name__ == "__main__":
+
     app.run(debug=True, port=7002)
