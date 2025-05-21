@@ -4,8 +4,9 @@ from flask import Flask, request, render_template, send_from_directory, jsonify
 from core.data_loader import load_data
 from core.model_trainer import train_models
 from core.predictor import generate_predictions
-
+from flask_cors import CORS
 app = Flask(__name__)
+cors = CORS(app)
 BASE_DIR = os.path.abspath(os.path.dirname(__file__))
 UPLOAD_DIR = os.path.join(BASE_DIR, "uploads")
 RESULTS_DIR = os.path.join(BASE_DIR, "results")
